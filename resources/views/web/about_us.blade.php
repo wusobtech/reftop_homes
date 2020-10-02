@@ -1,10 +1,12 @@
-@extends('web.layouts.app') @section('title' , 'Home') @section('content')
+@extends('web.layouts.app')
+@section('title' , 'About Us')
+@section('content')
 
 <!--body content wrap start-->
 <div class="main">
 
     <!--header section start-->
-    <section class="hero-section ptb-100 gradient-overlay" style="background: url('img/header-bg-5.jpg')no-repeat center center / cover">
+    <section class="hero-section ptb-100 gradient-overlay" style="background: url('{{ $web_source }}/img/header-bg-5.jpg')no-repeat center center / cover">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-7">
@@ -110,7 +112,7 @@
                 </div>
                 <div class="col-md-12 col-lg-6">
                     <div class="card border-0 shadow-sm text-white">
-                        <img src="img/about-1.jpg" alt="video" class="img-fluid rounded shadow-sm">
+                        <img src="{{ $web_source }}/img/about-1.jpg" alt="video" class="img-fluid rounded shadow-sm">
                     </div>
                 </div>
             </div>
@@ -194,7 +196,7 @@
                 <div class="col-md-4">
                     <div class="staff-member">
                         <div class="card gray-light-bg text-center border-0">
-                            <img src="img/team-1.jpg" alt="team image" class="card-img-top">
+                            <img src="{{ $web_source }}/img/team-1.jpg" alt="team image" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="teacher mb-0">Richard Ford</h5>
                                 <span>Instructor of Mathematics</span>
@@ -233,7 +235,7 @@
                 <div class="col-md-4">
                     <div class="staff-member">
                         <div class="card gray-light-bg text-center border-0">
-                            <img src="img/team-3.jpg" alt="team image" class="card-img-top">
+                            <img src="{{ $web_source }}/img/team-3.jpg" alt="team image" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="teacher mb-0">Kely Roy</h5>
                                 <span>Lead Designer</span>
@@ -271,7 +273,7 @@
                 <div class="col-md-4">
                     <div class="staff-member">
                         <div class="card gray-light-bg text-center border-0">
-                            <img src="img/team-2.jpg" alt="team image" class="img-fluid">
+                            <img src="{{ $web_source }}/img/team-2.jpg" alt="team image" class="img-fluid">
                             <div class="card-body">
                                 <h5 class="teacher mb-0">Gerald Nichols</h5>
                                 <span>Managing Director</span>
@@ -335,7 +337,7 @@
                                 </blockquote>
                                 <div class="client-img d-flex align-items-center justify-content-between pt-4">
                                     <div class="d-flex align-items-center">
-                                        <img src="img/client-1.jpg" alt="client" width="50" class="img-fluid rounded-circle shadow-sm mr-3" />
+                                        <img src="{{ $web_source }}/img/client-1.jpg" alt="client" width="50" class="img-fluid rounded-circle shadow-sm mr-3" />
                                         <div class="client-info">
                                             <h5 class="mb-0">Austin Cesar</h5>
                                             <small class="mb-0">Team Leader</small>
@@ -361,7 +363,7 @@
                                 </blockquote>
                                 <div class="client-img d-flex align-items-center justify-content-between pt-4">
                                     <div class="d-flex align-items-center">
-                                        <img src="img/client-2.jpg" alt="client" width="50" class="img-fluid rounded-circle shadow-sm mr-3" />
+                                        <img src="{{ $web_source }}/img/client-2.jpg" alt="client" width="50" class="img-fluid rounded-circle shadow-sm mr-3" />
                                         <div class="client-info">
                                             <h5 class="mb-0">Pirtle Karol</h5>
                                             <small class="mb-0">Team Leader</small>
@@ -387,7 +389,7 @@
                                 </blockquote>
                                 <div class="client-img d-flex align-items-center justify-content-between pt-4">
                                     <div class="d-flex align-items-center">
-                                        <img src="img/client-3.jpg" alt="client" width="50" class="img-fluid rounded-circle shadow-sm mr-3" />
+                                        <img src="{{ $web_source }}/img/client-3.jpg" alt="client" width="50" class="img-fluid rounded-circle shadow-sm mr-3" />
                                         <div class="client-info">
                                             <h5 class="mb-0">Joe Pirtle</h5>
                                             <small class="mb-0">Marketing Head</small>
@@ -413,7 +415,7 @@
                                 </blockquote>
                                 <div class="client-img d-flex align-items-center justify-content-between pt-4">
                                     <div class="d-flex align-items-center">
-                                        <img src="img/client-4.jpg" alt="client" width="50" class="img-fluid rounded-circle shadow-sm mr-3" />
+                                        <img src="{{ $web_source }}/img/client-4.jpg" alt="client" width="50" class="img-fluid rounded-circle shadow-sm mr-3" />
                                         <div class="client-info">
                                             <h5 class="mb-0">Kaly Dash</h5>
                                             <small class="mb-0">Marketing Manager</small>
@@ -448,28 +450,28 @@
                 <div class="col-md-12">
                     <div class="owl-carousel owl-theme clients-carousel dot-indicator">
                         <div class="item single-client">
-                            <img src="img/clients-logo-01.png" alt="client logo" class="client-img">
+                            <img src="{{ $web_source }}/img/clients-logo-01.png" alt="client logo" class="client-img">
                         </div>
                         <div class="item single-client">
-                            <img src="img/clients-logo-02.png" alt="client logo" class="client-img">
+                            <img src="{{ $web_source }}/img/clients-logo-02.png" alt="client logo" class="client-img">
                         </div>
                         <div class="item single-client">
-                            <img src="img/clients-logo-03.png" alt="client logo" class="client-img">
+                            <img src="{{ $web_source }}/img/clients-logo-03.png" alt="client logo" class="client-img">
                         </div>
                         <div class="item single-client">
-                            <img src="img/clients-logo-04.png" alt="client logo" class="client-img">
+                            <img src="{{ $web_source }}/img/clients-logo-04.png" alt="client logo" class="client-img">
                         </div>
                         <div class="item single-client">
-                            <img src="img/clients-logo-05.png" alt="client logo" class="client-img">
+                            <img src="{{ $web_source }}/img/clients-logo-05.png" alt="client logo" class="client-img">
                         </div>
                         <div class="item single-client">
-                            <img src="img/clients-logo-06.png" alt="client logo" class="client-img">
+                            <img src="{{ $web_source }}/img/clients-logo-06.png" alt="client logo" class="client-img">
                         </div>
                         <div class="item single-client">
-                            <img src="img/clients-logo-07.png" alt="client logo" class="client-img">
+                            <img src="{{ $web_source }}/img/clients-logo-07.png" alt="client logo" class="client-img">
                         </div>
                         <div class="item single-client">
-                            <img src="img/clients-logo-08.png" alt="client logo" class="client-img">
+                            <img src="{{ $web_source }}/img/clients-logo-08.png" alt="client logo" class="client-img">
                         </div>
                     </div>
                 </div>

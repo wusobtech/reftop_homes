@@ -28,7 +28,7 @@
     <nav class="navbar navbar-expand-lg fixed-top white-bg">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="img/logo-color.png" alt="logo" class="img-fluid"/>
+                <img src="{{ $web_source }}/img/logo-color.png" alt="logo" class="img-fluid"/>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,10 +37,10 @@
             <div class="collapse navbar-collapse h-auto" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto menu">
                     <li class=""><a href="{{ route('homepage') }}" > Home</a></li>
-                    <li><a  href="about-us.html">About Us</a></li>
-                    <li><a  href="services.html">Services</a></li>
-                    <li><a  href="project.html">Project</a></li>
-                    <li><a  href="contact-us.html">Contact Us</a></li>
+                    <li><a  href="{{ route('aboutUs') }}">About Us</a></li>
+                    <li><a  href="{{ route('services') }}">Services</a></li>
+                    <li><a  href="#">Blog</a></li>
+                    <li><a  href="{{ route('contactUs') }}">Contact Us</a></li>
                 </ul>
             </div>
         </div>
