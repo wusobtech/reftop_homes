@@ -1,4 +1,3 @@
-
 <!--header section start-->
 <header class="header">
     <!--topbar start-->
@@ -39,7 +38,7 @@
                     <li class=""><a href="{{ route('homepage') }}" > Home</a></li>
                     <li><a  href="{{ route('aboutUs') }}">About Us</a></li>
                     <li><a  href="{{ route('services') }}">Services</a></li>
-                    <li><a  href="#">Blog</a></li>
+                    <li><a  href="{{ route('our_blog') }}">Blog</a></li>
                     <li><a  href="{{ route('contactUs') }}">Contact Us</a></li>
                 </ul>
             </div>

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Blog;
+use App\BlogCategory;
 use App\Subscriber;
 use App\BlogComments;
 use Illuminate\Http\Request;
@@ -66,8 +67,9 @@ class WebController extends Controller
 
     public function blogsView(){
         $posts = Blog::orderby('created_at' , 'desc')->paginate(20);
-        $mostpopular = Blog::where('status',1)->orderby('views','desc')->get();
-        return view('web.blogs' , compact('posts','mostpopular'));
+        $categories = BlogCategory::orderby('title')->limit(5)->inRandomOrder()->get();
+        $recent_posts = Blog::orderby('created_at' , 'desc')->limit(5)->inRandomOrder()->get();
+        return view('web.blogs' , compact('posts','categories' , 'recent_posts'));
     }
 
     public function blog_info($id){
