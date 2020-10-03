@@ -26,7 +26,7 @@ Route::get('post/{id}/{slug}', 'WebController@blog_info')->name('blog_info');
 Route::post('make-comment', 'WebController@make_comment')->name('make_comment');
 Route::get('/share/{id}','WebController@share_post')->name('share_post');
 Route::match(['post','get'],'/admin/login', 'AdminController@login')->name('Adminlogin');
-
+Route::post('/contact-process','ContactController@store')->name('contact.store');
 Auth::routes(['register' => false , 'login' => false]);
 Route::get('/home', 'HomeController@index')->name('home');
 
