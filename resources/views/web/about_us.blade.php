@@ -26,7 +26,7 @@
     </section>
     <!--header section end-->
 
-    <!--promo section start-->
+    <!--promo section start
     <section class="promo-section pt-100">
         <div class="container">
             <div class="row">
@@ -66,7 +66,7 @@
             </div>
         </div>
     </section>
-    <!--promo section end-->
+    promo section end-->
 
     <!--about us section start-->
     <section class="about-us-section ptb-100">
@@ -74,8 +74,8 @@
             <div class="row justify-content-between align-items-center">
                 <div class="col-md-12 col-lg-5">
                     <div class="video-promo-content mb-md-4 mb-lg-0">
-                        <h2>Our Mission & Vission</h2>
-                        <p>Interactively develop timely niche markets before extensive imperatives. Professionally repurpose interoperable growth strategies before effective core competencies.</p>
+                        <h2>About ReftopHomes</h2>
+                        <p>Reftop Homes Ltd has over the years established herself as one of the industry’s fastest rising name. With development projects and investment interests in spread across Lekki Lagos, Reftop Homes Ltd has established impressive growth in the recent years</p>
                         <ul class="list-unstyled tech-feature-list">
                             <li class="py-1"><span class="ti-check-box mr-2 color-secondary"></span><strong>Cost</strong> Accounting Fundamentals
                             </li>
@@ -93,19 +93,19 @@
                             <div class="col-4">
                                 <div class="counter-single">
                                     <h4 class="mb-0 color-secondary">25002</h4>
-                                    <strong>Total Customer</strong>
+                                    <strong>Total Properties</strong>
                                 </div>
                             </div>
                             <div class="col-4">
                                 <div class="counter-single">
                                     <h4 class="mb-0 color-secondary">4566</h4>
-                                    <strong>Total Project</strong>
+                                    <strong>Total Customers</strong>
                                 </div>
                             </div>
                         </div>
                         <div class="action-btns mt-4">
-                            <a href="#" class="btn primary-solid-btn mr-2">View Our Services</a>
-                            <a href="#" class="btn outline-btn">Contact Us</a>
+                            <a href="{{route('services')}}" class="btn primary-solid-btn mr-2">View Our Services</a>
+                            <a href="{{route('contactUs')}}" class="btn outline-btn">Contact Us</a>
                         </div>
                     </div>
 
