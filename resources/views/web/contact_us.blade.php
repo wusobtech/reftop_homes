@@ -90,7 +90,8 @@
                 <div class="col-md-6">
                     <div class="contact-us-form gray-light-bg rounded p-5">
                         <h4>Ready to get started?</h4>
-                        <form action="" method="POST" id="contactForm" class="contact-us-form">
+                        <form action="{{route('contact.store')}}" method="POST" id="contactForm" class="contact-us-form">
+                                @csrf
                             <div class="form-row">
                                 <div class="col-12">
                                     <div class="form-group">
@@ -100,6 +101,11 @@
                                 <div class="col-12">
                                     <div class="form-group">
                                         <input type="email" class="form-control" name="email" placeholder="Enter email" required="required">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="subject" placeholder="Enter Subject" required="required">
                                     </div>
                                 </div>
                                 <div class="col-12">

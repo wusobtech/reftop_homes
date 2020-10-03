@@ -139,3 +139,6 @@
     <!--footer copyright end-->
 </footer>
 <!--footer section end-->
+@jquery
+@toastr_js
+@toastr_render
