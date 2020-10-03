@@ -20,7 +20,7 @@
     <meta property="og:type" content="article"/>
 
     <!--title-->
-    <title>CorporX Corporate and Business HTML Template</title>
+    <title>Reftop Homes</title>
 
     <!--favicon icon-->
     <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
