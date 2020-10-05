@@ -80,9 +80,9 @@
                             <div class="footer-nav-wrap text-white">
                                 <h4 class="text-white">GET IN TOUCH</h4>
                                 <ul class="get-in-touch-list">
-                                    <li class="d-flex align-items-center py-2"><span class="fas fa-map-marker-alt mr-2"></span> 2nd Floor Emperor Estate Mall, km34, Lekki-Epe Express way Sangotedo Lagos</li>
-                                    <li class="d-flex align-items-center py-2"><span class="fas fa-envelope mr-2"></span>contact@reftophomes.com</li>
-                                    <li class="d-flex align-items-center py-2"><span class="fas fa-phone-alt mr-2"></span>08155726553 - 07063602099</li>
+                                    <li class="d-flex align-items-center py-2"><span class="ti-location-pin mr-2"></span> 2nd Floor Emperor Estate Mall, km34, Lekki-Epe Express way Sangotedo Lagos</li>
+                                    <li class="d-flex align-items-center py-2"><span class="ti-email mr-2"></span>contact@reftophomes.com</li>
+                                    <li class="d-flex align-items-center py-2"><span class="ti-mobile mr-2"></span>08155726553 - 07063602099</li>
                                 </ul>
                             </div>
                         </div>
@@ -98,25 +98,19 @@
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-5 col-lg-5">
-                    <p class="copyright-text pb-0 mb-0">Copyrights © 2020. All
+                    <p class="copyright-text pb-0 mb-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script>  All
                         rights reserved by
-                        <a href="https://themeforest.net/user/themetags" target="_blank">ThemeTags</a></p>
+                        <a href="https://reftophomes.com" target="_blank">reftophomes</a></p>
                 </div>
                 <div class="col-md-7 col-lg-6 d-none d-md-block d-lg-block">
                     <div class="social-nav text-right">
                         <ul class="list-unstyled social-list mb-0">
                             <li class="list-inline-item tooltip-hover">
-                                <a href="#" class="rounded"><span class="ti-facebook"></span></a>
+                                <a href="https://www.facebook.com/reftophomes" target="_blank" class="rounded"><span class="ti-facebook"></span></a>
                                 <div class="tooltip-item">Facebook</div>
                             </li>
-                            <li class="list-inline-item tooltip-hover"><a href="#" class="rounded"><span class="ti-twitter"></span></a>
-                                <div class="tooltip-item">Twitter</div>
-                            </li>
-                            <li class="list-inline-item tooltip-hover"><a href="#" class="rounded"><span class="ti-linkedin"></span></a>
-                                <div class="tooltip-item">Linkedin</div>
-                            </li>
-                            <li class="list-inline-item tooltip-hover"><a href="#" class="rounded"><span class="ti-dribbble"></span></a>
-                                <div class="tooltip-item">Dribbble</div>
+                            <li class="list-inline-item tooltip-hover"><a href="https://www.instagram.com/reftophomes" target="_blank" class="rounded"><span class="ti-instagram"></span></a>
+                                <div class="tooltip-item">Instagram</div>
                             </li>
                         </ul>
                     </div>
