@@ -7,7 +7,7 @@
                 <div class="col-md-7 col-lg-7 d-none d-md-block d-lg-block">
                     <div class="topbar-text text-white">
                         <ul class="list-inline">
-                            <li class="list-inline-item"><span class="ti-email mr-1"></span> <a href="mailto:contact@wusobtech.com">contact@wusobtech.com</a></li>
+                            <li class="list-inline-item"><span class="ti-email mr-1"></span> <a href="mailto:contact@reftophomes.com">contact@reftophomes.com</a></li>
                             <li class="list-inline-item"><span class="ti-location-pin mr-1"></span>2nd Floor, Emperor Estate Mall, Sangotedo Lagos</li>
                         </ul>
                     </div>
