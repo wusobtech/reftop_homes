@@ -26,7 +26,7 @@
     </section>
     <!--header section end-->
 
-    <!--promo block with hover effect start-->
+    <!--promo block with hover effect start
     <section class="promo-block ptb-100">
         <div class="container">
             <div class="row">
@@ -66,7 +66,7 @@
             </div>
         </div>
     </section>
-    <!--promo block with hover effect end-->
+    promo block with hover effect end-->
 
     <!--services section start-->
     <section class="services-section ptb-100 gray-light-bg">
@@ -74,9 +74,8 @@
             <div class="row justify-content-center">
                 <div class="col-md-8">
                     <div class="section-heading text-center mb-5">
-                        <h2>We Provide Best Quality Services</h2>
-                        <p class="lead">we provide users with the best property search experience both online and 
-                            offline by connecting them with legitimate properties and homes.</p>
+                        <h2>Building</h2>
+                        <p class="lead">we provide users with the best built properties and homes. Our engineers are well equiped for anything</p>
                     </div>
                 </div>
             </div>
@@ -87,10 +86,9 @@
                             <span class="ti-announcement icon-md color-secondary"></span>
                         </div>
                         <div class="services-content-wrap">
-                            <h5>Sales and Marketing Services</h5>
-                            <p class="mb-0">We offer Sales and marketing services to sell buildings and units. 
-                               We work by commission and create  marketing material and use our sales agents to sell the inventory of completed units.
-
+                            <h5>Land Banking</h5>
+                            <p class="mb-0">We offer Sales and marketing services to sell buildings and lands. 
+                                We will help you make money out of your land or properties 
                             </p>
                         </div>
                     </div>
@@ -112,7 +110,7 @@
                             <span class="ti-stats-up icon-md color-secondary"></span>
                         </div>
                         <div class="services-content-wrap">
-                            <h5>Development</h5>
+                            <h5>Real Estate Development</h5>
                             <p class="mb-0">Our development process at ReftopHomes involves the purchase of raw land, rezoning, construction and renovation of buildings, and sale or lease of the finished product to end users.</p>
                          </div>
                     </div>

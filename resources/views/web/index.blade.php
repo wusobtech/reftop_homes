@@ -13,7 +13,9 @@
                     <div class="hero-slider-content">
                         <span class="text-uppercase">Total Real Estate Solutions</span>
                         <h1>Your Most Trusted Business Partner</h1>
-                        <p class="lead">Holisticly procrastinate mission-critical convergence with reliable customer service. Assertively underwhelm idea-sharing for impactful solutions. </p>
+                        <p class="lead">Think different,
+                            Be different.
+                            We are a real estate company with a focus on delivering quality real estate investment products to individuals seeking medium and long term high yielding properties. </p>
 
                         <div class="action-btns mt-3">
                             <a href="#" class="btn secondary-solid-btn">Meet Us</a>
@@ -73,7 +75,7 @@
             <div class="row justify-content-between align-items-center">
                 <div class="col-md-12 col-lg-6">
                     <div class="video-promo-content mb-md-4 mb-lg-0">
-                        <h2>Corporate Property Agency for Your needs</h2>
+                        <h2>Corporate Real Estate Investments Company for Your needs</h2>
                         <p class="lead">Interactively deliver niche properties and homes. Professionally
                             repurpose strategies.</p>
                         <ul class="list-unstyled tech-feature-list">
@@ -97,71 +99,68 @@
     </section>
     <!--about us section end-->
 
-    <!--services section start-->
-    <section class="services-section ptb-100 gray-light-bg">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <div class="section-heading text-center mb-5">
-                        <h2>We Provide Best Quality Services</h2>
-                        <p class="lead">we provide users with the best property search experience both online...</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <div class="service-icon mr-4">
-                            <span class="ti-announcement icon-md color-secondary"></span>
-                        </div>
-                        <div class="services-content-wrap">
-                            <h5>Sales and Marketing Services</h5>
-                            <p class="mb-0">We offer Sales and marketing services to sell buildings and units...
-                            </p>
-                            <a href="{{route('services')}}" target="_blank" class="detail-link mt-3">Read more <span class="ti-arrow-right"></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <div class="service-icon mr-4">
-                            <span class="ti-light-bulb icon-md color-secondary"></span>
-                        </div>
-                        <div class="services-content-wrap">
-                            <h5>Property management</h5>
-                            <p class="mb-0">We can help you manage your properties and units. Our jobs include...</p>
-                            <a href="{{route('services')}}" target="_blank" class="detail-link mt-3">Read more <span class="ti-arrow-right"></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <div class="service-icon mr-4">
-                            <span class="ti-stats-up icon-md color-secondary"></span>
-                        </div>
-                        <div class="services-content-wrap">
-                            <h5>Development</h5>
-                            <p class="mb-0">Our development process at ReftopHomes involves the purchase of raw...</p>
-                            <a href="{{route('services')}}" target="_blank" class="detail-link mt-3">Read more <span class="ti-arrow-right"></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <div class="service-icon mr-4">
-                            <span class="ti-headphone icon-md color-secondary"></span>
-                        </div>
-                        <div class="services-content-wrap">
-                            <h5>Creative Consultancy</h5>
-                            <p class="mb-0">Conveniently productize corporate imperatives for innovative best... </p>
-                            <a href="{{route('services')}}" target="_blank" class="detail-link mt-3">Read more <span class="ti-arrow-right"></span></a>
-                        </div>
-                    </div>
+   <!--services section start-->
+   <section class="services-section ptb-100 gray-light-bg">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="section-heading text-center mb-5">
+                    <h2>Building</h2>
+                    <p class="lead">we provide users with the best built properties and homes. Our engineers are well equiped for anything</p>
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="service-icon mr-4">
+                        <span class="ti-announcement icon-md color-secondary"></span>
+                    </div>
+                    <div class="services-content-wrap">
+                        <h5>Land Banking</h5>
+                        <p class="mb-0">We offer Sales and marketing services to sell buildings and lands. 
+                            We will help you make money out of your land or properties 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="service-icon mr-4">
+                        <span class="ti-light-bulb icon-md color-secondary"></span>
+                    </div>
+                    <div class="services-content-wrap">
+                        <h5>Property management</h5>
+                        <p class="mb-0">We can help you manage your properties and units. Our jobs include collecting rent, showing units, fixing deficiencies, performing repairs, and managing tenants. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="service-icon mr-4">
+                        <span class="ti-stats-up icon-md color-secondary"></span>
+                    </div>
+                    <div class="services-content-wrap">
+                        <h5>Real Estate Development</h5>
+                        <p class="mb-0">Our development process at ReftopHomes involves the purchase of raw land, rezoning, construction and renovation of buildings, and sale or lease of the finished product to end users.</p>
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="service-icon mr-4">
+                        <span class="ti-headphone icon-md color-secondary"></span>
+                    </div>
+                    <div class="services-content-wrap">
+                        <h5>Creative Consultancy</h5>
+                        <p class="mb-0">Conveniently productize corporate imperatives for innovative best practices ideas whereas ethical change. We work with a variety of real estate professionals who work in the industry and help make it function. </p>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </section>
-    <!--services section end-->
+<!--services section end-->
 
     <!--promo section start
     <section class="promo-section gradient-bg ptb-100">

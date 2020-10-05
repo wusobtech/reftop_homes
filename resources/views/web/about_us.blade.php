@@ -26,47 +26,38 @@
     </section>
     <!--header section end-->
 
-    <!--promo section start
-    <section class="promo-section pt-100">
+    <!--promo section start-->
+    <section class="promo-section gray-light-bg">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-lg-4">
+                <div class="">
                     <div class="single-promo-block p-3 rounded d-flex justify-content-between">
                         <div class="promo-block-icon mr-4">
-                            <span class="fas fa-brain icon-md color-primary"></span>
+                            <span class="ti-light-bulb icon-md color-primary"></span>
                         </div>
                         <div class="promo-block-content">
-                            <h5>Cyber Security</h5>
-                            <p>Enthusiastically scale mission-critical imperatives rather than an expanded array.</p>
+                            <h5>Our Goal</h5>
+                            <p>is to ensure our clients get maximum returns from their real estate investments. 
+                                This we do by siting our estates in 
+                                strategic locations, vetting and perfecting land documents, putting in 
+                                place complementary uses and solid infrastructure that creates a serene living environment
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-4">
                     <div class="single-promo-block p-3 rounded d-flex justify-content-between">
                         <div class="promo-block-icon mr-4">
-                            <span class="fas fa-bezier-curve icon-md color-primary"></span>
+                            <span class="ti-flag-alt icon-md color-primary"></span>
                         </div>
                         <div class="promo-block-content">
-                            <h5>Creative Design</h5>
-                            <p>Compellingly promote collaborative products without synergistic schemas. </p>
+                            <h5>Our Mission</h5>
+                            <p>The company’s vision is to become the most innovative, technology driven provider of real estate products and solutions in Africa.</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 col-lg-4">
-                    <div class="single-promo-block p-3 rounded d-flex justify-content-between">
-                        <div class="promo-block-icon mr-4">
-                            <span class="fas fa-life-ring icon-md color-primary"></span>
-                        </div>
-                        <div class="promo-block-content">
-                            <h5>Cloud Services</h5>
-                            <p>Rapidiously create cooperative resources rather than client-based leadership skills.</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
-    promo section end-->
+    <!-- promo section end-->
 
     <!--about us section start-->
     <section class="about-us-section ptb-100">
@@ -75,7 +66,8 @@
                 <div class="col-md-12 col-lg-5">
                     <div class="video-promo-content mb-md-4 mb-lg-0">
                         <h2>Who We Are</h2>
-                        <p>Reftop Homes Ltd has over the years established herself as one of the industry’s fastest rising name. With development projects and investment interests in spread across Lekki Lagos, Reftop Homes Ltd has established impressive growth in the recent years</p>
+                        <p>Reftop Homes Ltd has over the years established herself as one of the industry’s fastest rising name. With development projects and investment interests in spread across Lekki Lagos, Reftop Homes Ltd has established impressive growth in the recent years
+                            </p>
                         <ul class="list-unstyled tech-feature-list">
                             <li class="py-1"><span class="ti-check-box mr-2 color-secondary"></span><strong>Cost</strong> Accounting Fundamentals
                             </li>
@@ -161,7 +153,7 @@
                             </div>
                             <div class="work-process-content mt-4">
                                 <h5>Inspection</h5>
-                                <p>Careful Quality Assured inspections are carried out on all the properties</p>
+                                <p>Careful Quality Assured inspections are carried out on all the properties on Mondays, Wednesdays & Saturdays</p>
                             </div>
                         </div>
                         <div class="single-work-process">
@@ -181,7 +173,7 @@
     </section>
     <!--our work process section end-->
 
-    <!--team two section start-->
+    <!--team two section start
     <section class="team-two-section ptb-100">
         <div class="container">
             <div class="row justify-content-center">
@@ -312,7 +304,7 @@
             </div>
         </div>
     </section>
-    <!--team two section end-->
+    team two section end-->
 
     <!--testimonial section start-->
     <section class="testimonial-section ptb-100 gray-light-bg">
@@ -439,10 +431,10 @@
     <!--testimonial section end-->
 
 
-    <!--client section start-->
+    <!--client section start
     <div class="client-section ptb-100">
         <div class="container">
-            <!--clients logo start-->
+            
             <div class="row align-items-center">
                 <div class="col-md-12">
                     <div class="owl-carousel owl-theme clients-carousel dot-indicator">
@@ -473,10 +465,9 @@
                     </div>
                 </div>
             </div>
-            <!--clients logo end-->
         </div>
     </div>
-    <!--client section start-->
+    client section start-->
 
 </div>
 <!--body content wrap end-->
