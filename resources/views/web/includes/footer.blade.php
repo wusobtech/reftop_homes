@@ -83,6 +83,8 @@
                                     <li class="d-flex align-items-center py-2"><span class="ti-location-pin mr-2"></span> 2nd Floor Emperor Estate Mall, km34, Lekki-Epe Express way Sangotedo Lagos</li>
                                     <li class="d-flex align-items-center py-2"><span class="ti-email mr-2"></span>contact@reftophomes.com</li>
                                     <li class="d-flex align-items-center py-2"><span class="ti-mobile mr-2"></span>08155726553 - 07063602099</li>
+                                    <li class="d-flex align-items-center py-2"><a href="https://www.facebook.com/reftophomes" target="_blank"><span class="ti-facebook mr-2"></span>reftophomes</a><a href="https://www.instagram.com/reftophomes" target="_blank" class="ml-3"><span class="ti-instagram mr-2"></span>reftophomes</a></li>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
