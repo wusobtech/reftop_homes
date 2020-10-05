@@ -279,10 +279,10 @@
 </section>
 <!--our work or portfolio section end-->
 
-    <!--client section start-->
+    <!--client section start
     <div class="client-section ptb-100 gray-light-bg">
         <div class="container">
-            <!--clients logo start-->
+           
             <div class="row align-items-center">
                 <div class="col-md-12">
                     <div class="owl-carousel owl-theme clients-carousel dot-indicator">
@@ -313,10 +313,9 @@
                     </div>
                 </div>
             </div>
-            <!--clients logo end-->
         </div>
     </div>
-    <!--client section start-->
+    client section start-->
 
 
 </div>
