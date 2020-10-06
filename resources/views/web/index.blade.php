@@ -18,7 +18,7 @@
                             We are a real estate company with a focus on delivering quality real estate investment products to individuals seeking medium and long term high yielding properties. </p>
 
                         <div class="action-btns mt-3">
-                            <a href="#" class="btn secondary-solid-btn">Meet Us</a>
+                            <a href="{{route('contactUs')}}" class="btn secondary-solid-btn">Meet Us</a>
                         </div>
                     </div>
                 </div>
@@ -232,7 +232,7 @@
                     <div class="portfolio-container" id="MixItUp">
                         <div class="mix portfolio-item branding" data-ref="mixitup-target">
                             <div class="portfolio-wrapper">
-                                <a href="project-details.html" target="_blank">
+                                <a href="" target="_blank">
                                     <div class="content-overlay"></div>
                                     <img class="img-fluid" src="{{ $web_source }}/img/portfolios/3.jpg" alt="portfolio"/>
                                     <div class="content-details fadeIn-bottom text-white">
@@ -244,7 +244,7 @@
                         </div>
                         <div class="mix portfolio-item animation" data-ref="mixitup-target">
                             <div class="portfolio-wrapper">
-                                <a href="project-details.html" target="_blank">
+                                <a href="" target="_blank">
                                     <div class="content-overlay"></div>
                                     <img class="img-fluid" src="{{ $web_source }}/img/portfolios/2.jpg" alt="portfolio"/>
                                     <div class="content-details fadeIn-bottom text-white">
@@ -256,7 +256,7 @@
                         </div>
                         <div class="mix portfolio-item animation" data-ref="mixitup-target">
                             <div class="portfolio-wrapper">
-                                <a href="project-details.html" target="_blank">
+                                <a href="" target="_blank">
                                     <div class="content-overlay"></div>
                                     <img class="img-fluid" src="{{ $web_source }}/img/portfolios/4.jpg" alt="portfolio"/>
                                     <div class="content-details fadeIn-bottom text-white">
@@ -268,7 +268,7 @@
                         </div>
                         <div class="mix portfolio-item branding" data-ref="mixitup-target">
                             <div class="portfolio-wrapper">
-                                <a href="project-details.html" target="_blank">
+                                <a href="" target="_blank">
                                     <div class="content-overlay"></div>
                                     <img class="img-fluid" src="{{ $web_source }}/img/portfolios/1.jpg" alt="portfolio"/>
                                     <div class="content-details fadeIn-bottom text-white">
@@ -280,7 +280,7 @@
                         </div>
                         <div class="mix portfolio-item branding " data-ref="mixitup-target">
                             <div class="portfolio-wrapper">
-                                <a href="project-details.html" target="_blank">
+                                <a href="" target="_blank">
                                     <div class="content-overlay"></div>
                                     <img class="img-fluid" src="{{ $web_source }}/img/portfolios/6.jpg" alt="portfolio"/>
                                     <div class="content-details fadeIn-bottom text-white">
@@ -292,7 +292,7 @@
                         </div>
                         <div class="mix portfolio-item other " data-ref="mixitup-target">
                             <div class="portfolio-wrapper">
-                                <a href="project-details.html" target="_blank">
+                                <a href="" target="_blank">
                                     <div class="content-overlay"></div>
                                     <img class="img-fluid" src="{{ $web_source }}/img/portfolios/7.jpg" alt="portfolio"/>
                                     <div class="content-details fadeIn-bottom text-white">

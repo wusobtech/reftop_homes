@@ -15,7 +15,7 @@
                         <h1 class="text-white mb-0">Contact Us</h1>
                         <div class="custom-breadcrumb">
                             <ol class="breadcrumb d-inline-block bg-transparent list-inline py-0">
-                                <li class="list-inline-item breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="list-inline-item breadcrumb-item"><a href="{{ route('homepage') }}">Home</a></li>
                                 <li class="list-inline-item breadcrumb-item active">Contact Us</li>
                             </ol>
                         </div>

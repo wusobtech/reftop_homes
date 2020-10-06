@@ -14,8 +14,7 @@
                         <h1 class="text-white mb-0">Our Services</h1>
                         <div class="custom-breadcrumb">
                             <ol class="breadcrumb d-inline-block bg-transparent list-inline py-0">
-                                <li class="list-inline-item breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="list-inline-item breadcrumb-item"><a href="#">Pages</a></li>
+                                <li class="list-inline-item breadcrumb-item"><a href="{{ route('homepage') }}">Home</a></li>
                                 <li class="list-inline-item breadcrumb-item active">Services</li>
                             </ol>
                         </div>
@@ -199,7 +198,7 @@
                 <div class="portfolio-container" id="MixItUp">
                     <div class="mix portfolio-item branding" data-ref="mixitup-target">
                         <div class="portfolio-wrapper">
-                            <a href="project-details.html" target="_blank">
+                            <a href="" target="_blank">
                                 <div class="content-overlay"></div>
                                 <img class="img-fluid" src="{{ $web_source }}/img/portfolios/3.jpg" alt="portfolio"/>
                                 <div class="content-details fadeIn-bottom text-white">
@@ -211,7 +210,7 @@
                     </div>
                     <div class="mix portfolio-item animation" data-ref="mixitup-target">
                         <div class="portfolio-wrapper">
-                            <a href="project-details.html" target="_blank">
+                            <a href="" target="_blank">
                                 <div class="content-overlay"></div>
                                 <img class="img-fluid" src="{{ $web_source }}/img/portfolios/2.jpg" alt="portfolio"/>
                                 <div class="content-details fadeIn-bottom text-white">
@@ -223,7 +222,7 @@
                     </div>
                     <div class="mix portfolio-item animation" data-ref="mixitup-target">
                         <div class="portfolio-wrapper">
-                            <a href="project-details.html" target="_blank">
+                            <a href="" target="_blank">
                                 <div class="content-overlay"></div>
                                 <img class="img-fluid" src="{{ $web_source }}/img/portfolios/4.jpg" alt="portfolio"/>
                                 <div class="content-details fadeIn-bottom text-white">
@@ -235,7 +234,7 @@
                     </div>
                     <div class="mix portfolio-item branding" data-ref="mixitup-target">
                         <div class="portfolio-wrapper">
-                            <a href="project-details.html" target="_blank">
+                            <a href="" target="_blank">
                                 <div class="content-overlay"></div>
                                 <img class="img-fluid" src="{{ $web_source }}/img/portfolios/1.jpg" alt="portfolio"/>
                                 <div class="content-details fadeIn-bottom text-white">
@@ -247,7 +246,7 @@
                     </div>
                     <div class="mix portfolio-item branding " data-ref="mixitup-target">
                         <div class="portfolio-wrapper">
-                            <a href="project-details.html" target="_blank">
+                            <a href="" target="_blank">
                                 <div class="content-overlay"></div>
                                 <img class="img-fluid" src="{{ $web_source }}/img/portfolios/6.jpg" alt="portfolio"/>
                                 <div class="content-details fadeIn-bottom text-white">
@@ -259,7 +258,7 @@
                     </div>
                     <div class="mix portfolio-item other " data-ref="mixitup-target">
                         <div class="portfolio-wrapper">
-                            <a href="project-details.html" target="_blank">
+                            <a href="" target="_blank">
                                 <div class="content-overlay"></div>
                                 <img class="img-fluid" src="{{ $web_source }}/img/portfolios/7.jpg" alt="portfolio"/>
                                 <div class="content-details fadeIn-bottom text-white">
