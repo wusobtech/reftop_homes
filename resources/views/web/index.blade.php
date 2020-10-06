@@ -118,13 +118,13 @@
                     </div>
                     <div class="services-content-wrap">
                         <h5>Land Banking</h5>
-                        <p class="mb-0">We offer Sales and marketing services to sell buildings and lands. 
-                            We will help you make money out of your land or properties 
+                        <p class="mb-0">We offer Sales and marketing services to sell buildings and lands.
+                            We will help you make money out of your land or properties
                         </p>
                     </div>
                 </div>
             </div>
-        <!--    <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                     <div class="service-icon mr-4">
                         <span class="ti-light-bulb icon-md color-secondary"></span>
@@ -135,7 +135,6 @@
                     </div>
                 </div>
             </div>
-        -->
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                     <div class="service-icon mr-4">
@@ -143,7 +142,7 @@
                     </div>
                     <div class="services-content-wrap">
                         <h5>Real Estate Development</h5>
-                        <p class="mb-0">we can help you secure your future by investing in our landbanking,our job include land banking, real estate development, real estate broking, construction</p>
+                        <p class="mb-0">Our development process at ReftopHomes involves the purchase of raw land, rezoning, construction and renovation of buildings, and sale or lease of the finished product to end users.</p>
                      </div>
                 </div>
             </div>
@@ -160,7 +159,7 @@
             </div>
         </div>
     </div>
-</section>
+    </section>
 <!--services section end-->
 
     <!--promo section start
@@ -313,99 +312,99 @@
     </section>
     <!--our work or portfolio section end-->
 
-    <!--blog section start
-    <section class="our-blog-section ptb-100 gray-light-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="section-heading mb-5">
-                        <h2>Our Latest News</h2>
-                        <p class="lead">
-                            Enthusiastically drive revolutionary opportunities before emerging leadership. Distinctively
-                            transform tactical methods of empowerment via resource.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-6 col-lg-4">
-                    <div class="single-blog-card card border-0 shadow-sm">
-                        <div class="blog-img">
-                            <a href="#"><span class="category position-absolute">Business</span></a>
-                            <a href="#"><img src="{{ $web_source }}/img/blog/1.jpg" class="card-img-top position-relative img-fluid" alt="blog"></a>
-                        </div>
-                        <div class="card-body">
-                            <h3 class="h5 mb-2 card-title"><a href="#">Appropriately productize fully</a></h3>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk.</p>
-                        </div>
-                        <div class="card-footer border-0 d-flex align-items-center justify-content-between">
-                            <div class="author-meta d-flex align-items-center">
-                                <span class="fa fa-user mr-2 p-3 bg-white rounded-circle border"></span>
-                                <div class="author-content">
-                                    <a href="#" class="d-block">ThemeTags</a>
-                                    <small>May 26, 2020</small>
-                                </div>
-                            </div>
-                            <div class="author-like">
-                                <a href="#"><span class="fa fa-share-alt"></span> 50</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="single-blog-card card border-0 shadow-sm">
-                        <div class="blog-img">
-                            <a href="#"><span class="category position-absolute">SEO, Analytics</span></a>
-                            <a href="#"><img src="{{ $web_source }}/img/blog/2.jpg" class="card-img-top position-relative img-fluid" alt="blog"></a>
-                        </div>
-                        <div class="card-body">
-                            <h3 class="h5 mb-2 card-title"><a href="#">Quickly formulate backend</a></h3>
-                            <p class="card-text">Synergistically engage effective ROI after customer directed partnerships.</p>
-                        </div>
-                        <div class="card-footer border-0 d-flex align-items-center justify-content-between">
-                            <div class="author-meta d-flex align-items-center">
-                                <span class="fa fa-user mr-2 p-3 bg-white rounded-circle border"></span>
-                                <div class="author-content">
-                                    <a href="#" class="d-block">ThemeTags</a>
-                                    <small>May 28, 2020</small>
-                                </div>
-                            </div>
-                            <div class="author-like">
-                                <a href="#"><span class="fa fa-share-alt"></span> 30</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="single-blog-card card border-0 shadow-sm">
-                        <div class="blog-img">
-                            <a href="#"><span class="category position-absolute">Marketing</span></a>
-                            <a href="#"><img src="{{ $web_source }}/img/blog/3.jpg" class="card-img-top position-relative img-fluid" alt="blog"></a>
-                        </div>
-                        <div class="card-body">
-                            <h3 class="h5 mb-2 card-title"><a href="#">Objectively extend extensive</a></h3>
-                            <p class="card-text">Holisticly mesh open-source leadership rather than proactive users.</p>
-                        </div>
-                        <div class="card-footer border-0 d-flex align-items-center justify-content-between">
-                            <div class="author-meta d-flex align-items-center">
-                                <span class="fa fa-user mr-2 p-3 bg-white rounded-circle border"></span>
-                                <div class="author-content">
-                                    <a href="#" class="d-block">ThemeTags</a>
-                                    <small>May 30, 2020</small>
-                                </div>
-                            </div>
-                            <div class="author-like">
-                                <a href="#"><span class="fa fa-share-alt"></span> 55</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    blog section end-->
+    <!--blog section start-->
+    <!--<section class="our-blog-section ptb-100 gray-light-bg">-->
+    <!--    <div class="container">-->
+    <!--        <div class="row">-->
+    <!--            <div class="col-md-8">-->
+    <!--                <div class="section-heading mb-5">-->
+    <!--                    <h2>Our Latest News</h2>-->
+    <!--                    <p class="lead">-->
+    <!--                        Enthusiastically drive revolutionary opportunities before emerging leadership. Distinctively-->
+    <!--                        transform tactical methods of empowerment via resource.-->
+    <!--                    </p>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="row justify-content-center">-->
+    <!--            <div class="col-md-6 col-lg-4">-->
+    <!--                <div class="single-blog-card card border-0 shadow-sm">-->
+    <!--                    <div class="blog-img">-->
+    <!--                        <a href="#"><span class="category position-absolute">Business</span></a>-->
+    <!--                        <a href="#"><img src="{{ $web_source }}/img/blog/1.jpg" class="card-img-top position-relative img-fluid" alt="blog"></a>-->
+    <!--                    </div>-->
+    <!--                    <div class="card-body">-->
+    <!--                        <h3 class="h5 mb-2 card-title"><a href="#">Appropriately productize fully</a></h3>-->
+    <!--                        <p class="card-text">Some quick example text to build on the card title and make up the bulk.</p>-->
+    <!--                    </div>-->
+    <!--                    <div class="card-footer border-0 d-flex align-items-center justify-content-between">-->
+    <!--                        <div class="author-meta d-flex align-items-center">-->
+    <!--                            <span class="fa fa-user mr-2 p-3 bg-white rounded-circle border"></span>-->
+    <!--                            <div class="author-content">-->
+    <!--                                <a href="#" class="d-block">ThemeTags</a>-->
+    <!--                                <small>May 26, 2020</small>-->
+    <!--                            </div>-->
+    <!--                        </div>-->
+    <!--                        <div class="author-like">-->
+    <!--                            <a href="#"><span class="fa fa-share-alt"></span> 50</a>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <div class="col-md-6 col-lg-4">-->
+    <!--                <div class="single-blog-card card border-0 shadow-sm">-->
+    <!--                    <div class="blog-img">-->
+    <!--                        <a href="#"><span class="category position-absolute">SEO, Analytics</span></a>-->
+    <!--                        <a href="#"><img src="{{ $web_source }}/img/blog/2.jpg" class="card-img-top position-relative img-fluid" alt="blog"></a>-->
+    <!--                    </div>-->
+    <!--                    <div class="card-body">-->
+    <!--                        <h3 class="h5 mb-2 card-title"><a href="#">Quickly formulate backend</a></h3>-->
+    <!--                        <p class="card-text">Synergistically engage effective ROI after customer directed partnerships.</p>-->
+    <!--                    </div>-->
+    <!--                    <div class="card-footer border-0 d-flex align-items-center justify-content-between">-->
+    <!--                        <div class="author-meta d-flex align-items-center">-->
+    <!--                            <span class="fa fa-user mr-2 p-3 bg-white rounded-circle border"></span>-->
+    <!--                            <div class="author-content">-->
+    <!--                                <a href="#" class="d-block">ThemeTags</a>-->
+    <!--                                <small>May 28, 2020</small>-->
+    <!--                            </div>-->
+    <!--                        </div>-->
+    <!--                        <div class="author-like">-->
+    <!--                            <a href="#"><span class="fa fa-share-alt"></span> 30</a>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <div class="col-md-6 col-lg-4">-->
+    <!--                <div class="single-blog-card card border-0 shadow-sm">-->
+    <!--                    <div class="blog-img">-->
+    <!--                        <a href="#"><span class="category position-absolute">Marketing</span></a>-->
+    <!--                        <a href="#"><img src="{{ $web_source }}/img/blog/3.jpg" class="card-img-top position-relative img-fluid" alt="blog"></a>-->
+    <!--                    </div>-->
+    <!--                    <div class="card-body">-->
+    <!--                        <h3 class="h5 mb-2 card-title"><a href="#">Objectively extend extensive</a></h3>-->
+    <!--                        <p class="card-text">Holisticly mesh open-source leadership rather than proactive users.</p>-->
+    <!--                    </div>-->
+    <!--                    <div class="card-footer border-0 d-flex align-items-center justify-content-between">-->
+    <!--                        <div class="author-meta d-flex align-items-center">-->
+    <!--                            <span class="fa fa-user mr-2 p-3 bg-white rounded-circle border"></span>-->
+    <!--                            <div class="author-content">-->
+    <!--                                <a href="#" class="d-block">ThemeTags</a>-->
+    <!--                                <small>May 30, 2020</small>-->
+    <!--                            </div>-->
+    <!--                        </div>-->
+    <!--                        <div class="author-like">-->
+    <!--                            <a href="#"><span class="fa fa-share-alt"></span> 55</a>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</section>-->
+    <!--blog section end-->
 
-    <!--team two section start
+    <!--team two section start-->
     <section class="team-two-section ptb-100 gray-light-bg">
         <div class="container">
             <div class="row justify-content-center">
@@ -424,7 +423,7 @@
             </div>
         </div>
     </section>
-    team two section end-->
+    <!--team two section end-->
 
     <!--call to action section start-->
     <section class="call-to-action py-5">
