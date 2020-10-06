@@ -124,7 +124,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-6">
+        <!--    <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                     <div class="service-icon mr-4">
                         <span class="ti-light-bulb icon-md color-secondary"></span>
@@ -135,6 +135,7 @@
                     </div>
                 </div>
             </div>
+        -->
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                     <div class="service-icon mr-4">
@@ -142,7 +143,7 @@
                     </div>
                     <div class="services-content-wrap">
                         <h5>Real Estate Development</h5>
-                        <p class="mb-0">Our development process at ReftopHomes involves the purchase of raw land, rezoning, construction and renovation of buildings, and sale or lease of the finished product to end users.</p>
+                        <p class="mb-0">we can help you secure your future by investing in our landbanking,our job include land banking, real estate development, real estate broking, construction</p>
                      </div>
                 </div>
             </div>
@@ -159,7 +160,7 @@
             </div>
         </div>
     </div>
-    </section>
+</section>
 <!--services section end-->
 
     <!--promo section start
@@ -312,7 +313,7 @@
     </section>
     <!--our work or portfolio section end-->
 
-    <!--blog section start-->
+    <!--blog section start
     <section class="our-blog-section ptb-100 gray-light-bg">
         <div class="container">
             <div class="row">
@@ -402,9 +403,9 @@
             </div>
         </div>
     </section>
-    <!--blog section end-->
+    blog section end-->
 
-    <!--team two section start-->
+    <!--team two section start
     <section class="team-two-section ptb-100 gray-light-bg">
         <div class="container">
             <div class="row justify-content-center">
@@ -423,7 +424,7 @@
             </div>
         </div>
     </section>
-    <!--team two section end-->
+    team two section end-->
 
     <!--call to action section start-->
     <section class="call-to-action py-5">
