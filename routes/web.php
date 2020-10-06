@@ -20,6 +20,7 @@ Route::get('/our-portfolio', 'WebController@portfolio')->name('portfolio');
 Route::match(['post', 'get'],'/send', 'WebController@sendContact');
 Route::get('/services', 'WebController@services')->name('services');
 Route::get('/our-blog', 'WebController@blogsView')->name('our_blog');
+Route::post('/our-blog/comment', 'WebController@blogsComment')->name('our_blog.comment');
 Route::match(['post', 'get'],'/subscribe', 'WebController@subscribe')->name('subscribe');
 Route::get('unsubscribe/{email}','WebController@unsubscribe')->name('unsubscribe');
 Route::get('post/{id}/{slug}', 'WebController@blog_info')->name('blog_info');

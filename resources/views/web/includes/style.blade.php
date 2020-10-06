@@ -17,3 +17,5 @@
  <link rel="stylesheet" href="{{ $web_source }}/css/style.css">
  <!--responsive css-->
  <link rel="stylesheet" href="{{ $web_source }}/css/responsive.css">
+<!-- Jquery Toast css -->
+<link href="{{asset('toast')}}/jquery.toast.min.css" rel="stylesheet" type="text/css" />

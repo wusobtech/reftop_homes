@@ -10,7 +10,7 @@ use Illuminate\Http\Request;
 use App\Mail\ContactFormMail;
 use App\Mail\NewsLetter;
 use Illuminate\Support\Facades\Mail;
-
+use Illuminate\Support\Facades\Validator;
 
 class WebController extends Controller
 {
@@ -65,19 +65,78 @@ class WebController extends Controller
         return view('web.services');
     }
 
-    public function blogsView(){
-        $posts = Blog::orderby('created_at' , 'desc')->paginate(20);
+
+    public function blogsView(Request $request){
+        $search_keywords = $request->keywords;
+        $category_id = $request->category_id;
         $categories = BlogCategory::orderby('title')->limit(5)->inRandomOrder()->get();
         $recent_posts = Blog::orderby('created_at' , 'desc')->limit(5)->inRandomOrder()->get();
-        return view('web.blogs' , compact('posts','categories' , 'recent_posts'));
+        $builder = Blog::where('status' , 1)->orderBy('created_at' , 'desc');
+        if(empty($category_id)){
+            $posts = $builder->where('title', 'like' , '%'.$search_keywords.'%')->paginate(20);
+        }
+        else{
+            $posts = $builder->where('title', 'like' , '%'.$search_keywords.'%')
+            ->where('post_category_id' , $category_id )->paginate(20);
+            $category_id = BlogCategory::find($category_id);
+        }
+        return view('web.blogs' , compact('posts' , 'categories' , 'search_keywords' , 'recent_posts' ));
     }
+
 
     public function blog_info($id){
         $post = Blog::findorfail($id);
         $post['social_links'] = $this->post_share_links($post);
+        $categories = BlogCategory::orderby('title')->limit(5)->inRandomOrder()->get();
+        $recent_posts = Blog::orderby('created_at' , 'desc')->limit(5)->inRandomOrder()->get();
         $comments = BlogComments::where('blog_id',$post->id)->where('status',1)->orderby('id','desc')->get();
-        return view('web.blog_info' , compact('post','comments'));
+        return view('web.blog_info' , compact('post' , 'categories' , 'recent_posts', 'comments'));
     }
+
+
+
+    public function blog_category_posts(Request $request , $id){
+        $category = $this->PostCategory->find($id);
+        if(!empty($category)){
+            $request['category_id'] = $id;
+            return $this->blogsView($request);
+        }
+    }
+
+
+
+    public function blogsComment(Request $request){
+        $validator = Validator::make($request->all(),[
+            'name' => 'required|string',
+            'email' => 'nullable|string',
+            'website' => 'nullable|string',
+            'blog_id' => 'required|string',
+            'comment' => 'required|string',
+        ]);
+
+        if($validator->fails()){
+            return response()->json([
+                'success'=> false ,
+                'msg' => 'Comment could not be added!',
+                'data' => null,
+            ]);
+        }
+        else{
+           $data = $validator->validated();
+           $comment = BlogComments::create($data);
+           return response()->json([
+               'success'=> true ,
+               'msg' => 'Comment added successfully!',
+               'data' => [
+                   'avatar' => $comment->getAvatar() ,
+                   'name' => $comment->name,
+                   'date' => date('d M Y h:i:A',strtotime($comment->created_at)),
+                   'comment' => $comment->comment,
+                ],
+           ]);
+        }
+    }
+
 
     public function share_post($id)
     {

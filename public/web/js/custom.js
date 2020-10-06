@@ -5,26 +5,42 @@ $.ajaxSetup({
     }
 });
 
-$('#comment_form').on('submit', function(e) {
+function commentTemplate(comment){
+    let template =  $('#commentTemplate').clone(true);
+    console.log(template);
+    template.removeClass('d-none');
+    template.removeAttr('id');
+    template.find('.avatar').attr('src',comment.avatar);
+    template.find('.comment-meta-author').text(comment.name);
+    template.find('.comment-meta-date').text(comment.date);
+    template.find('.comment-content p').html(comment.comment);
+    $('.comment-list').prepend(template);
+}
+
+$('#commentform').on('submit', function(e) {
     e.preventDefault();
     var formdata = new FormData(this);
+    var url = $(this).attr('action');
     $.ajax({
-        url: "/make-comment",
+        url: url,
         type: "POST",
         cache: false,
         contentType: false,
         processData: false,
         data: formdata,
         success: function(data) {
-            $('#comment_field').val('');
-            console.log(data);        
             if (data.success) {
-                successMsg("Success", data.msg);          
+                successMsg("Success", data.msg); 
+                commentTemplate(data.data); 
+                $('.comments_count').each(function() {
+                    $(this).text(parseInt($(this).text()) + 1);
+                });      
+                $(this).trigger('reset');  
+            }
+            else{
                 errorMsg("Error", data.msg);        
             }
-            $('.comment_count').each(function() {
-                $(this).text(parseInt($(this).text()) + 1);
-            });
+
         }
     });
 });
