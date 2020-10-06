@@ -431,8 +431,8 @@
             <div class="row justify-content-around align-items-center">
                 <div class="col-md-7">
                     <div class="subscribe-content">
-                        <h3 class="mb-1">Consulting Agency for Your Business</h3>
-                        <p>Rapidiously engage fully tested e-commerce with progressive architectures.</p>
+                        <h3 class="mb-1">Real Estate Agency for You</h3>
+                        <p>Get reliable, affordable lands and properties.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
