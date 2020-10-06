@@ -92,7 +92,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
+            <!--    <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <div class="service-icon mr-4">
                             <span class="ti-light-bulb icon-md color-secondary"></span>
@@ -103,6 +103,7 @@
                         </div>
                     </div>
                 </div>
+            -->
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <div class="service-icon mr-4">
@@ -110,7 +111,7 @@
                         </div>
                         <div class="services-content-wrap">
                             <h5>Real Estate Development</h5>
-                            <p class="mb-0">Our development process at ReftopHomes involves the purchase of raw land, rezoning, construction and renovation of buildings, and sale or lease of the finished product to end users.</p>
+                            <p class="mb-0">we can help you secure your future by investing in our landbanking,our job include land banking, real estate development, real estate broking, construction</p>
                          </div>
                     </div>
                 </div>
