@@ -14,8 +14,7 @@
                         <h1 class="text-white mb-0">About Us</h1>
                         <div class="custom-breadcrumb">
                             <ol class="breadcrumb d-inline-block bg-transparent list-inline py-0">
-                                <li class="list-inline-item breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="list-inline-item breadcrumb-item"><a href="#">Pages</a></li>
+                                <li class="list-inline-item breadcrumb-item"><a href="{{ route('homepage') }}">Home</a></li>
                                 <li class="list-inline-item breadcrumb-item active">About Us</li>
                             </ol>
                         </div>
@@ -26,47 +25,38 @@
     </section>
     <!--header section end-->
 
-    <!--promo section start
-    <section class="promo-section pt-100">
+    <!--promo section start-->
+    <section class="promo-section gray-light-bg">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-lg-4">
+                <div class="">
                     <div class="single-promo-block p-3 rounded d-flex justify-content-between">
                         <div class="promo-block-icon mr-4">
-                            <span class="fas fa-brain icon-md color-primary"></span>
+                            <span class="ti-light-bulb icon-md color-primary"></span>
                         </div>
                         <div class="promo-block-content">
-                            <h5>Cyber Security</h5>
-                            <p>Enthusiastically scale mission-critical imperatives rather than an expanded array.</p>
+                            <h5>Our Goal</h5>
+                            <p>is to ensure our clients get maximum returns from their real estate investments. 
+                                This we do by siting our estates in 
+                                strategic locations, vetting and perfecting land documents, putting in 
+                                place complementary uses and solid infrastructure that creates a serene living environment
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-4">
                     <div class="single-promo-block p-3 rounded d-flex justify-content-between">
                         <div class="promo-block-icon mr-4">
-                            <span class="fas fa-bezier-curve icon-md color-primary"></span>
+                            <span class="ti-flag-alt icon-md color-primary"></span>
                         </div>
                         <div class="promo-block-content">
-                            <h5>Creative Design</h5>
-                            <p>Compellingly promote collaborative products without synergistic schemas. </p>
+                            <h5>Our Mission</h5>
+                            <p>The company’s vision is to become the most innovative, technology driven provider of real estate products and solutions in Africa.</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 col-lg-4">
-                    <div class="single-promo-block p-3 rounded d-flex justify-content-between">
-                        <div class="promo-block-icon mr-4">
-                            <span class="fas fa-life-ring icon-md color-primary"></span>
-                        </div>
-                        <div class="promo-block-content">
-                            <h5>Cloud Services</h5>
-                            <p>Rapidiously create cooperative resources rather than client-based leadership skills.</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
-    promo section end-->
+    <!-- promo section end-->
 
     <!--about us section start-->
     <section class="about-us-section ptb-100">
@@ -74,8 +64,9 @@
             <div class="row justify-content-between align-items-center">
                 <div class="col-md-12 col-lg-5">
                     <div class="video-promo-content mb-md-4 mb-lg-0">
-                        <h2>About ReftopHomes</h2>
-                        <p>Reftop Homes Ltd has over the years established herself as one of the industry’s fastest rising name. With development projects and investment interests in spread across Lekki Lagos, Reftop Homes Ltd has established impressive growth in the recent years</p>
+                        <h2>Who We Are</h2>
+                        <p>Reftop Homes Ltd has over the years established herself as one of the industry’s fastest rising name. With development projects and investment interests in spread across Lekki Lagos, Reftop Homes Ltd has established impressive growth in the recent years
+                            </p>
                         <ul class="list-unstyled tech-feature-list">
                             <li class="py-1"><span class="ti-check-box mr-2 color-secondary"></span><strong>Cost</strong> Accounting Fundamentals
                             </li>
@@ -126,8 +117,8 @@
             <div class="row justify-content-center">
                 <div class="col-md-9 col-lg-8">
                     <div class="section-heading text-center mb-5">
-                        <h2>We Deliver Our Services Few Process</h2>
-                        <p class="lead">Distinctively grow go forward manufactured products and optimal networks. Enthusiastically disseminate outsourcing through revolutionary.</p>
+                        <h2>Our Development Process</h2>
+                        <p class="lead">In satisfying our clients, we make sure our processes are hitch free and compliant with world best practices on real-estate</p>
                     </div>
                 </div>
             </div>
@@ -136,12 +127,12 @@
                     <div class="work-process-wrap text-center">
                         <div class="single-work-process">
                             <div class="work-process-icon-wrap secondary-bg rounded-circle">
-                                <i class="ti-vector icon-md text-white"></i>
+                                <i class="ti-location-pin icon-md text-white"></i>
                                 <span class="process-step primary-bg text-white shadow-sm">1</span>
                             </div>
                             <div class="work-process-content mt-4">
-                                <h5>Generate Ideas</h5>
-                                <p>Compellingly harness reliable methodologies and web services. </p>
+                                <h5>Locate a Property</h5>
+                                <p>We search for properties in the best of environs</p>
                             </div>
                         </div>
                         <div class="single-work-process">
@@ -150,28 +141,28 @@
                                 <span class="process-step primary-bg text-white shadow-sm">2</span>
                             </div>
                             <div class="work-process-content mt-4">
-                                <h5>Collect Contents</h5>
-                                <p>Proactively pursue high-quality cooperative applications. </p>
+                                <h5>Inquiry</h5>
+                                <p>24/7 calls, centered to respond to all proeperties located</p>
                             </div>
                         </div>
                         <div class="single-work-process">
                             <div class="work-process-icon-wrap secondary-bg rounded-circle">
-                                <i class="ti-palette icon-md text-white"></i>
+                                <i class="ti-search icon-md text-white"></i>
                                 <span class="process-step primary-bg text-white shadow-sm">3</span>
                             </div>
                             <div class="work-process-content mt-4">
-                                <h5>Create Design</h5>
-                                <p>Continually exploit worldwide products maximizing alignments. </p>
+                                <h5>Inspection</h5>
+                                <p>Careful Quality Assured inspections are carried out on all the properties on Mondays, Wednesdays & Saturdays</p>
                             </div>
                         </div>
                         <div class="single-work-process">
                             <div class="work-process-icon-wrap secondary-bg rounded-circle">
-                                <i class="ti-cup icon-md text-white"></i>
+                                <i class="ti-money icon-md text-white"></i>
                                 <span class="process-step primary-bg text-white shadow-sm">4</span>
                             </div>
                             <div class="work-process-content mt-4">
-                                <h5>Launch Project</h5>
-                                <p>Dramatically exploit strategic innovation market-driven schemas. </p>
+                                <h5>Purchase</h5>
+                                <p>Signed deeds and documents are filed after every payment made</p>
                             </div>
                         </div>
                     </div>
@@ -181,7 +172,7 @@
     </section>
     <!--our work process section end-->
 
-    <!--team two section start-->
+    <!--team two section start
     <section class="team-two-section ptb-100">
         <div class="container">
             <div class="row justify-content-center">
@@ -312,7 +303,7 @@
             </div>
         </div>
     </section>
-    <!--team two section end-->
+    team two section end-->
 
     <!--testimonial section start-->
     <section class="testimonial-section ptb-100 gray-light-bg">
@@ -320,10 +311,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-9 col-lg-8">
                     <div class="section-heading mb-5 text-center">
-                        <h2>Testimonials What Clients Say</h2>
-                        <p class="lead">
-                            Rapidiously morph transparent internal or "organic" sources whereas resource sucking e-business. Conveniently innovate compelling internal.
-                        </p>
+                        <h2>What Clients Say</h2>
                     </div>
                 </div>
             </div>
@@ -333,14 +321,14 @@
                         <div class="item">
                             <div class="testimonial-single shadow-sm white-bg rounded p-4">
                                 <blockquote>
-                                    Assertively procrastinate distributed relationships whereas equity invested intellectual capital everything energistically underwhelm proactive.
+                                    "WoW! ReftopHomes has made me a land owner after many years"
                                 </blockquote>
                                 <div class="client-img d-flex align-items-center justify-content-between pt-4">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{ $web_source }}/img/client-1.jpg" alt="client" width="50" class="img-fluid rounded-circle shadow-sm mr-3" />
+                                    <!--    <img src="{{ $web_source }}/img/client-1.jpg" alt="client" width="50" class="img-fluid rounded-circle shadow-sm mr-3" /> -->
                                         <div class="client-info">
-                                            <h5 class="mb-0">Austin Cesar</h5>
-                                            <small class="mb-0">Team Leader</small>
+                                            <h5 class="mb-0">Oluwole Tinubu</h5>
+                                            <small class="mb-0">Marketer</small>
                                         </div>
                                     </div>
                                     <div class="client-ratting">
@@ -359,14 +347,14 @@
                         <div class="item">
                             <div class="testimonial-single shadow-sm white-bg rounded p-4">
                                 <blockquote>
-                                    Intrinsicly facilitate functional imperatives without next-generation meta-services. Compellingly revolutionize worldwide users vis-a-vis enterprise best practices.
+                                    "Who knew property purchase could be this easy..Thumbs up ReftopHomes"
                                 </blockquote>
                                 <div class="client-img d-flex align-items-center justify-content-between pt-4">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{ $web_source }}/img/client-2.jpg" alt="client" width="50" class="img-fluid rounded-circle shadow-sm mr-3" />
+                                    <!--    <img src="{{ $web_source }}/img/client-2.jpg" alt="client" width="50" class="img-fluid rounded-circle shadow-sm mr-3" /> -->
                                         <div class="client-info">
-                                            <h5 class="mb-0">Pirtle Karol</h5>
-                                            <small class="mb-0">Team Leader</small>
+                                            <h5 class="mb-0">Chisom Frank</h5>
+                                            <small class="mb-0">Business Man</small>
                                         </div>
                                     </div>
                                     <div class="client-ratting">
@@ -385,14 +373,14 @@
                         <div class="item">
                             <div class="testimonial-single shadow-sm white-bg rounded p-4">
                                 <blockquote>
-                                    Interactively grow backend scenarios through one paradigms. Distinctively and communicate efficient information without effective meta-services.
+                                    "I've had no land disputes since I went through ReftopHomes. Thank You"
                                 </blockquote>
                                 <div class="client-img d-flex align-items-center justify-content-between pt-4">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{ $web_source }}/img/client-3.jpg" alt="client" width="50" class="img-fluid rounded-circle shadow-sm mr-3" />
+                                     <!--   <img src="{{ $web_source }}/img/client-3.jpg" alt="client" width="50" class="img-fluid rounded-circle shadow-sm mr-3" /> -->
                                         <div class="client-info">
-                                            <h5 class="mb-0">Joe Pirtle</h5>
-                                            <small class="mb-0">Marketing Head</small>
+                                            <h5 class="mb-0">Joy Nwambueze</h5>
+                                            <small class="mb-0">Accountant</small>
                                         </div>
                                     </div>
                                     <div class="client-ratting">
@@ -411,14 +399,14 @@
                         <div class="item">
                             <div class="testimonial-single shadow-sm white-bg rounded p-4">
                                 <blockquote>
-                                    Intrinsicly facilitate functional imperatives without next-generation meta-services. Compellingly revolutionize worldwide users vis-a-vis enterprise best practices.
+                                    "Theres nothing better than owning your own home, in a cool environment"
                                 </blockquote>
                                 <div class="client-img d-flex align-items-center justify-content-between pt-4">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{ $web_source }}/img/client-4.jpg" alt="client" width="50" class="img-fluid rounded-circle shadow-sm mr-3" />
+                                       <!-- <img src="{{ $web_source }}/img/client-4.jpg" alt="client" width="50" class="img-fluid rounded-circle shadow-sm mr-3" /> -->
                                         <div class="client-info">
-                                            <h5 class="mb-0">Kaly Dash</h5>
-                                            <small class="mb-0">Marketing Manager</small>
+                                            <h5 class="mb-0">Jonathan Ayomide</h5>
+                                            <small class="mb-0">Banker</small>
                                         </div>
                                     </div>
                                     <div class="client-ratting">
@@ -442,10 +430,10 @@
     <!--testimonial section end-->
 
 
-    <!--client section start-->
+    <!--client section start
     <div class="client-section ptb-100">
         <div class="container">
-            <!--clients logo start-->
+            
             <div class="row align-items-center">
                 <div class="col-md-12">
                     <div class="owl-carousel owl-theme clients-carousel dot-indicator">
@@ -476,10 +464,9 @@
                     </div>
                 </div>
             </div>
-            <!--clients logo end-->
         </div>
     </div>
-    <!--client section start-->
+    client section start-->
 
 </div>
 <!--body content wrap end-->

@@ -7,15 +7,15 @@
                 <div class="col-md-7 col-lg-7 d-none d-md-block d-lg-block">
                     <div class="topbar-text text-white">
                         <ul class="list-inline">
-                            <li class="list-inline-item"><span class="fas fa-envelope mr-1"></span> <a href="mailto:support@yourdomain.com">support@yourdomain.com</a></li>
-                            <li class="list-inline-item"><span class="fas fa-map-marker mr-1"></span> Address CA-234/B New York, USA</li>
+                            <li class="list-inline-item"><span class="ti-email mr-1"></span> <a href="mailto:contact@reftophomes.com">contact@reftophomes.com</a></li>
+                            <li class="list-inline-item"><span class="ti-location-pin mr-1"></span>2nd Floor, Emperor Estate Mall, Sangotedo Lagos</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4">
                     <div class="topbar-text text-white">
                         <ul class="list-inline text-md-right text-lg-right text-left">
-                            <li class="list-inline-item"><span class="ti-phone mr-2"></span> Call Now: <strong>883-4565-123456</strong></li>
+                            <li class="list-inline-item"><span class="ti-phone mr-2"></span> Call Now: <strong>0706-360-2099</strong></li>
                         </ul>
                     </div>
                 </div>

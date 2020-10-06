@@ -6,17 +6,19 @@
 <div class="main">
 
     <!--hero section start-->
-    <section class="hero-equal-height pt-165 pb-100 gradient-overly-right-light" style="background: url('{{ $web_source }}/img/hero-bg4.jpg')no-repeat center center / cover">
+    <section class="hero-equal-height pt-165 pb-100 gradient-overly-right-light" style="background: url('{{ $web_source }}/img/hero-bg1.jpg')no-repeat center center / cover">
         <div class="container">
             <div class="row">
                 <div class="col-md-7 col-lg-6">
                     <div class="hero-slider-content">
-                        <span class="text-uppercase">Total Business Solutions</span>
+                        <span class="text-uppercase">Total Real Estate Solutions</span>
                         <h1>Your Most Trusted Business Partner</h1>
-                        <p class="lead">Holisticly procrastinate mission-critical convergence with reliable customer service. Assertively underwhelm idea-sharing for impactful solutions. </p>
+                        <p class="lead">Think different,
+                            Be different.
+                            We are a real estate company with a focus on delivering quality real estate investment products to individuals seeking medium and long term high yielding properties. </p>
 
                         <div class="action-btns mt-3">
-                            <a href="#" class="btn secondary-solid-btn">Get Start Now</a>
+                            <a href="{{route('contactUs')}}" class="btn secondary-solid-btn">Meet Us</a>
                         </div>
                     </div>
                 </div>
@@ -25,7 +27,7 @@
     </section>
     <!--hero section end-->
 
-    <!--promo section start-->
+    <!--promo section start
     <section class="promo-block ptb-100 mt--165 z-index position-relative">
         <div class="container">
             <div class="row">
@@ -65,32 +67,31 @@
             </div>
         </div>
     </section>
-    <!--promo section end-->
+    promo section end-->
 
     <!--about us section start-->
-    <section class="about-us-section pb-100">
+    <section class="about-us-section pb-100 mt-4">
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-md-12 col-lg-6">
                     <div class="video-promo-content mb-md-4 mb-lg-0">
-                        <h2>Corporate Agency for Your Business Solutions</h2>
-                        <p class="lead">Interactively develop timely niche markets before extensive imperatives. Professionally
+                        <h2>Corporate Real Estate Investments Company for Your needs</h2>
+                        <p class="lead">Interactively deliver niche properties and homes. Professionally
                             repurpose strategies.</p>
                         <ul class="list-unstyled tech-feature-list">
-                            <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Creative</strong> Websites Design</li>
-                            <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Accounting</strong> Procedures Guidebook</li>
-                            <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Cost</strong> Accounting Fundamentals</li>
-                            <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>SEO</strong> Optimization Services</li>
+                            <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Properties</strong> Land Acquisition</li>
+                            <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Property Management</strong> Consultancy</li>
+                            <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Property Leasing</strong> Sales </li>
                         </ul>
                         <div class="action-btns mt-4">
-                            <a href="#" class="btn primary-solid-btn mr-2">View Our Services</a>
-                            <a href="#" class="btn outline-btn">Contact Us</a>
+                            <a href="{{route('services')}}" class="btn primary-solid-btn mr-2">View Our Services</a>
+                            <a href="{{route('contactUs')}}" class="btn outline-btn">Contact Us</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-6">
                     <div class="image-wrap">
-                        <img src="{{ $web_source }}/img/about-img.jpg" alt="video" class="img-fluid rounded">
+                        <img src="{{ $web_source }}/img/about-img.jpg" alt="Our-Agency" class="img-fluid rounded">
                     </div>
                 </div>
             </div>
@@ -98,98 +99,71 @@
     </section>
     <!--about us section end-->
 
-    <!--services section start-->
-    <section class="services-section ptb-100 gray-light-bg">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <div class="section-heading text-center mb-5">
-                        <h2>We Provide Best Quality Services</h2>
-                        <p class="lead">Efficiently aggregate end-to-end core competencies without maintainable ideas. Dynamically
-                            foster tactical solutions without enabled value.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <div class="service-icon mr-4">
-                            <span class="ti-announcement icon-md color-secondary"></span>
-                        </div>
-                        <div class="services-content-wrap">
-                            <h5>Marketing Services</h5>
-                            <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                                partnerships.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-3">Read more <span class="ti-arrow-right"></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <div class="service-icon mr-4">
-                            <span class="ti-light-bulb icon-md color-secondary"></span>
-                        </div>
-                        <div class="services-content-wrap">
-                            <h5>Web App Development</h5>
-                            <p class="mb-0">Quickly pontificate holistic e-commerce rather than goal-oriented web-readiness enhance inexpensive.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-3">Read more <span class="ti-arrow-right"></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <div class="service-icon mr-4">
-                            <span class="ti-headphone-alt icon-md color-secondary"></span>
-                        </div>
-                        <div class="services-content-wrap">
-                            <h5>24/7 Call Center Service</h5>
-                            <p class="mb-0">Authoritatively reinvent multimedia based niches with global portals orchestrate client-centered .</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-3">Read more <span class="ti-arrow-right"></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <div class="service-icon mr-4">
-                            <span class="ti-bell icon-md color-secondary"></span>
-                        </div>
-                        <div class="services-content-wrap">
-                            <h5>Social Media Marketing</h5>
-                            <p class="mb-0">Assertively leverage other's standardized e-services with fully tested e-commerce strategize synergistic. </p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-3">Read more <span class="ti-arrow-right"></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <div class="service-icon mr-4">
-                            <span class="ti-briefcase icon-md color-secondary"></span>
-                        </div>
-                        <div class="services-content-wrap">
-                            <h5>Corporate Business</h5>
-                            <p class="mb-0">Enthusiastically scale client-centric supply chains vis-a-vis enabled benefits empower global core.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-3">Read more <span class="ti-arrow-right"></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <div class="service-icon mr-4">
-                            <span class="ti-vector icon-md color-secondary"></span>
-                        </div>
-                        <div class="services-content-wrap">
-                            <h5>Creative Consultancy</h5>
-                            <p class="mb-0">Conveniently productize corporate imperatives for innovative best practices ideas whereas ethical change.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-3">Read more <span class="ti-arrow-right"></span></a>
-                        </div>
-                    </div>
+   <!--services section start-->
+   <section class="services-section ptb-100 gray-light-bg">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="section-heading text-center mb-5">
+                    <h2>Building</h2>
+                    <p class="lead">we provide users with the best built properties and homes. Our engineers are well equiped for anything</p>
                 </div>
             </div>
         </div>
-    </section>
-    <!--services section end-->
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="service-icon mr-4">
+                        <span class="ti-announcement icon-md color-secondary"></span>
+                    </div>
+                    <div class="services-content-wrap">
+                        <h5>Land Banking</h5>
+                        <p class="mb-0">We offer Sales and marketing services to sell buildings and lands. 
+                            We will help you make money out of your land or properties 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        <!--    <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="service-icon mr-4">
+                        <span class="ti-light-bulb icon-md color-secondary"></span>
+                    </div>
+                    <div class="services-content-wrap">
+                        <h5>Property management</h5>
+                        <p class="mb-0">We can help you manage your properties and units. Our jobs include collecting rent, showing units, fixing deficiencies, performing repairs, and managing tenants. </p>
+                    </div>
+                </div>
+            </div>
+        -->
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="service-icon mr-4">
+                        <span class="ti-stats-up icon-md color-secondary"></span>
+                    </div>
+                    <div class="services-content-wrap">
+                        <h5>Real Estate Development</h5>
+                        <p class="mb-0">we can help you secure your future by investing in our landbanking,our job include land banking, real estate development, real estate broking, construction</p>
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="service-icon mr-4">
+                        <span class="ti-headphone icon-md color-secondary"></span>
+                    </div>
+                    <div class="services-content-wrap">
+                        <h5>Creative Consultancy</h5>
+                        <p class="mb-0">Conveniently productize corporate imperatives for innovative best practices ideas whereas ethical change. We work with a variety of real estate professionals who work in the industry and help make it function. </p>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--services section end-->
 
-    <!--promo section start-->
+    <!--promo section start
     <section class="promo-section gradient-bg ptb-100">
         <div class="container">
             <div class="row justify-content-center">
@@ -235,7 +209,7 @@
             </div>
         </div>
     </section>
-    <!--promo section end-->
+    promo section end-->
 
     <!--our work or portfolio section start-->
     <section class="our-portfolio-section ptb-100">
@@ -243,9 +217,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="section-heading text-center mb-5">
-                        <h2>Check Our Quality Work</h2>
-                        <p class="lead">Dynamically pursue reliable convergence rather than 24/7 process improvements. Intrinsicly
-                            develop end-to-end customer service without extensive data.</p>
+                        <h2>Check Our Distinct Properties</h2>
+                        <p class="lead">Our sites are dry land and are very affordable <br>Feel free to contact us for further information</p>
                     </div>
                 </div>
             </div>
@@ -253,79 +226,79 @@
                 <div class="col-md-12">
                     <div class="text-center pb-2">
                         <button type="button" class="filter-btn" data-mixitup-control data-filter="all">All</button>
-                        <button type="button" class="filter-btn" data-mixitup-control data-filter=".branding">Branding</button>
-                        <button type="button" class="filter-btn" data-mixitup-control data-filter=".animation">Animation</button>
-                        <button type="button" class="filter-btn" data-mixitup-control data-filter=".other">Others</button>
+                        <button type="button" class="filter-btn" data-mixitup-control data-filter=".branding">Lands</button>
+                        <button type="button" class="filter-btn" data-mixitup-control data-filter=".animation">Homes</button>
+                        <button type="button" class="filter-btn" data-mixitup-control data-filter=".other">Beach View</button>
                     </div>
                     <div class="portfolio-container" id="MixItUp">
                         <div class="mix portfolio-item branding" data-ref="mixitup-target">
                             <div class="portfolio-wrapper">
-                                <a href="project-details.html" target="_blank">
+                                <a href="" target="_blank">
                                     <div class="content-overlay"></div>
                                     <img class="img-fluid" src="{{ $web_source }}/img/portfolios/3.jpg" alt="portfolio"/>
                                     <div class="content-details fadeIn-bottom text-white">
-                                        <h5 class="text-white mb-1">Creative Design</h5>
-                                        <p>Design</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="mix portfolio-item other animation" data-ref="mixitup-target">
-                            <div class="portfolio-wrapper">
-                                <a href="project-details.html" target="_blank">
-                                    <div class="content-overlay"></div>
-                                    <img class="img-fluid" src="{{ $web_source }}/img/portfolios/2.jpg" alt="portfolio"/>
-                                    <div class="content-details fadeIn-bottom text-white">
-                                        <h5 class="text-white mb-1">Web UI/UX Design</h5>
-                                        <p>Web, Design</p>
+                                        <h5 class="text-white mb-1">Park View Estate</h5>
+                                        <p>Ibeju Lekki</p>
                                     </div>
                                 </a>
                             </div>
                         </div>
                         <div class="mix portfolio-item animation" data-ref="mixitup-target">
                             <div class="portfolio-wrapper">
-                                <a href="project-details.html" target="_blank">
+                                <a href="" target="_blank">
+                                    <div class="content-overlay"></div>
+                                    <img class="img-fluid" src="{{ $web_source }}/img/portfolios/2.jpg" alt="portfolio"/>
+                                    <div class="content-details fadeIn-bottom text-white">
+                                        <h5 class="text-white mb-1">Rose Park Estate</h5>
+                                        <p>Ibeju Lekki</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="mix portfolio-item animation" data-ref="mixitup-target">
+                            <div class="portfolio-wrapper">
+                                <a href="" target="_blank">
                                     <div class="content-overlay"></div>
                                     <img class="img-fluid" src="{{ $web_source }}/img/portfolios/4.jpg" alt="portfolio"/>
                                     <div class="content-details fadeIn-bottom text-white">
-                                        <h5 class="text-white mb-1">Corporate Flyer Design</h5>
-                                        <p>Flyer Design</p>
+                                        <h5 class="text-white mb-1">Park View Estate</h5>
+                                        <p>Ibeju Lekki</p>
                                     </div>
                                 </a>
                             </div>
                         </div>
                         <div class="mix portfolio-item branding" data-ref="mixitup-target">
                             <div class="portfolio-wrapper">
-                                <a href="project-details.html" target="_blank">
+                                <a href="" target="_blank">
                                     <div class="content-overlay"></div>
                                     <img class="img-fluid" src="{{ $web_source }}/img/portfolios/1.jpg" alt="portfolio"/>
                                     <div class="content-details fadeIn-bottom text-white">
-                                        <h5 class="text-white mb-1">Web UI/UX Design</h5>
-                                        <p>Web, Design</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="mix portfolio-item animation other" data-ref="mixitup-target">
-                            <div class="portfolio-wrapper">
-                                <a href="project-details.html" target="_blank">
-                                    <div class="content-overlay"></div>
-                                    <img class="img-fluid" src="{{ $web_source }}/img/portfolios/5.jpg" alt="portfolio"/>
-                                    <div class="content-details fadeIn-bottom text-white">
-                                        <h5 class="text-white mb-1">Wall Painting Design</h5>
-                                        <p>Painting Design</p>
+                                        <h5 class="text-white mb-1">Rose Park Estate</h5>
+                                        <p>Ibeju Lekki</p>
                                     </div>
                                 </a>
                             </div>
                         </div>
                         <div class="mix portfolio-item branding " data-ref="mixitup-target">
                             <div class="portfolio-wrapper">
-                                <a href="project-details.html" target="_blank">
+                                <a href="" target="_blank">
                                     <div class="content-overlay"></div>
                                     <img class="img-fluid" src="{{ $web_source }}/img/portfolios/6.jpg" alt="portfolio"/>
                                     <div class="content-details fadeIn-bottom text-white">
-                                        <h5 class="text-white mb-1">Corporate Identity Design</h5>
-                                        <p>Corporate Design</p>
+                                        <h5 class="text-white mb-1">Park View Estate</h5>
+                                        <p>Ibeju Lekki</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="mix portfolio-item other " data-ref="mixitup-target">
+                            <div class="portfolio-wrapper">
+                                <a href="" target="_blank">
+                                    <div class="content-overlay"></div>
+                                    <img class="img-fluid" src="{{ $web_source }}/img/portfolios/7.jpg" alt="portfolio"/>
+                                    <div class="content-details fadeIn-bottom text-white">
+                                        <h5 class="text-white mb-1">Beach View</h5>
+                                        <p>Spacious and Beautiful</p>
                                     </div>
                                 </a>
                             </div>
@@ -340,7 +313,7 @@
     </section>
     <!--our work or portfolio section end-->
 
-    <!--blog section start-->
+    <!--blog section start
     <section class="our-blog-section ptb-100 gray-light-bg">
         <div class="container">
             <div class="row">
@@ -430,240 +403,28 @@
             </div>
         </div>
     </section>
-    <!--blog section end-->
+    blog section end-->
 
-    <!--testimonial section start-->
-    <section class="testimonial-section ptb-100">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-9 col-lg-8">
-                    <div class="section-heading mb-5 text-center">
-                        <h2>What Clients Say About Us</h2>
-                        <p class="lead">
-                            Rapidiously morph transparent internal or "organic" sources whereas resource sucking
-                            e-business. Conveniently innovate compelling internal.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <div class="testimonial-single shadow-sm gray-light-bg rounded p-4">
-                        <blockquote>
-                            Assertively procrastinate distributed relationships whereas equity invested intellectual capital everything energistically underwhelm proactive.
-                        </blockquote>
-                        <div class="client-img d-flex align-items-center justify-content-between pt-4">
-                            <div class="d-flex align-items-center">
-                                <img src="{{ $web_source }}/img/client-1.jpg" alt="client" width="50" class="img-fluid rounded-circle shadow-sm mr-3"/>
-                                <div class="client-info">
-                                    <h5 class="mb-0">Austin Cesar</h5>
-                                    <small class="mb-0">Team Leader</small>
-                                </div>
-                            </div>
-                            <div class="client-ratting">
-                                <ul class="list-inline client-ratting-list">
-                                    <li class="list-inline-item"><span class="fas fa-star ratting-color"></span></li>
-                                    <li class="list-inline-item"><span class="fas fa-star ratting-color"></span></li>
-                                    <li class="list-inline-item"><span class="fas fa-star ratting-color"></span></li>
-                                    <li class="list-inline-item"><span class="fas fa-star ratting-color"></span></li>
-                                    <li class="list-inline-item"><span class="fas fa-star ratting-color"></span></li>
-                                </ul>
-                                <span class="font-weight-bold">5.0 <small class="font-weight-lighter">Out of 5</small></span>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="testimonial-single shadow-sm gray-light-bg rounded p-4">
-                        <blockquote>
-                            Intrinsicly facilitate functional imperatives without next-generation meta-services. Compellingly revolutionize worldwide users vis-a-vis enterprise best practices.
-                        </blockquote>
-                        <div class="client-img d-flex align-items-center justify-content-between pt-4">
-                            <div class="d-flex align-items-center">
-                                <img src="{{ $web_source }}/img/client-2.jpg" alt="client" width="50" class="img-fluid rounded-circle shadow-sm mr-3"/>
-                                <div class="client-info">
-                                    <h5 class="mb-0">Pirtle Karol</h5>
-                                    <small class="mb-0">Team Leader</small>
-                                </div>
-                            </div>
-                            <div class="client-ratting">
-                                <ul class="list-inline client-ratting-list">
-                                    <li class="list-inline-item"><span class="fas fa-star ratting-color"></span></li>
-                                    <li class="list-inline-item"><span class="fas fa-star ratting-color"></span></li>
-                                    <li class="list-inline-item"><span class="fas fa-star ratting-color"></span></li>
-                                    <li class="list-inline-item"><span class="fas fa-star ratting-color"></span></li>
-                                    <li class="list-inline-item"><span class="fas fa-star ratting-color"></span></li>
-                                </ul>
-                                <span class="font-weight-bold">5.0 <small class="font-weight-lighter">Out of 5</small></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="testimonial-single shadow-sm gray-light-bg rounded p-4">
-                        <blockquote>
-                            Interactively grow backend scenarios through one paradigms. Distinctively and communicate efficient information without effective meta-services.
-                        </blockquote>
-                        <div class="client-img d-flex align-items-center justify-content-between pt-4">
-                            <div class="d-flex align-items-center">
-                                <img src="{{ $web_source }}/img/client-3.jpg" alt="client" width="50" class="img-fluid rounded-circle shadow-sm mr-3"/>
-                                <div class="client-info">
-                                    <h5 class="mb-0">Joe Pirtle</h5>
-                                    <small class="mb-0">Marketing Head</small>
-                                </div>
-                            </div>
-                            <div class="client-ratting">
-                                <ul class="list-inline client-ratting-list">
-                                    <li class="list-inline-item"><span class="fas fa-star ratting-color"></span></li>
-                                    <li class="list-inline-item"><span class="fas fa-star ratting-color"></span></li>
-                                    <li class="list-inline-item"><span class="fas fa-star ratting-color"></span></li>
-                                    <li class="list-inline-item"><span class="fas fa-star ratting-color"></span></li>
-                                    <li class="list-inline-item"><span class="fas fa-star ratting-color"></span></li>
-                                </ul>
-                                <span class="font-weight-bold">5.0 <small class="font-weight-lighter">Out of 5</small></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!--testimonial section end-->
-
-
-    <!--team two section start-->
+    <!--team two section start
     <section class="team-two-section ptb-100 gray-light-bg">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-8">
                     <div class="section-heading text-center mb-5">
                         <h2>Meet Our Lovely Team</h2>
-                        <p class="lead">Distinctively grow go forward manufactured products and optimal networks. Enthusiastically
-                            disseminate user-centric outsourcing.</p>
+                        <p class="lead">Our team is defined by its distinct mix of individuals, which creates unique ideas to drive us
+                            to building second to non real-estate transactions.</p>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="staff-member">
-                        <div class="card text-center border-0">
-                            <img src="{{ $web_source }}/img/team-1.jpg" alt="team image" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="teacher mb-0">Richard Ford</h5>
-                                <span>Instructor of Mathematics</span>
-                                <ul class="list-inline pt-2 social">
-                                    <li class="list-inline-item"><a href="" target="_blank"><span
-                                            class="ti-facebook"></span></a></li>
-                                    <li class="list-inline-item"><a href="" target="_blank"><span
-                                            class="ti-linkedin"></span></a></li>
-                                    <li class="list-inline-item"><a href="" target="_blank"><span
-                                            class="ti-dribbble"></span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="overlay d-flex align-items-center justify-content-center">
-                            <div class="overlay-inner">
-                                <p class="teacher-quote">"Dramatically leverage existing fully researched platforms vis-a-vis viral." </p><a
-                                    href="#" class="teacher-name">
-                                <h5 class="mb-0 teacher text-white">Richard Ford</h5></a>
-                                <span class="teacher-field text-white">Instructor of Mathematics</span>
-                                <ul class="list-inline py-4 social">
-                                    <li class="list-inline-item"><a href="" target="_blank"><span
-                                            class="ti-facebook"></span></a></li>
-                                    <li class="list-inline-item"><a href="" target="_blank"><span
-                                            class="ti-linkedin"></span></a></li>
-                                    <li class="list-inline-item"><a href="" target="_blank"><span
-                                            class="ti-dribbble"></span></a></li>
-                                </ul>
-                                <p class="teacher-see-profile">
-                                    <a href="#" class="btn outline-white-btn">View my profile</a>
-                                </p>
-                            </div>
-                        </div>
+            <div class="row justify-content-center">
+                    <div class="action-btn text-lg-right text-sm-left">
+                        <a href="{{route('aboutUs')}}" class="btn secondary-solid-btn">Meet the Team</a>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="staff-member">
-                        <div class="card text-center border-0">
-                            <img src="{{ $web_source }}/img/team-3.jpg" alt="team image" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="teacher mb-0">Kely Roy</h5>
-                                <span>Lead Designer</span>
-                                <ul class="list-inline pt-2 social">
-                                    <li class="list-inline-item"><a href="" target="_blank"><span
-                                            class="ti-facebook"></span></a></li>
-                                    <li class="list-inline-item"><a href="" target="_blank"><span
-                                            class="ti-linkedin"></span></a></li>
-                                    <li class="list-inline-item"><a href="" target="_blank"><span
-                                            class="ti-dribbble"></span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="overlay d-flex align-items-center justify-content-center">
-                            <div class="overlay-inner">
-                                <p class="teacher-quote">"Credibly extend high-payoff web-readiness via top-line relationships." </p><a
-                                    href="#" class="teacher-name">
-                                <h5 class="mb-0 teacher text-white">Kely Roy</h5></a><span class="teacher-field text-white">Lead Designer</span>
-                                <ul class="list-inline py-4 social">
-                                    <li class="list-inline-item"><a href="" target="_blank"><span
-                                            class="ti-facebook"></span></a></li>
-                                    <li class="list-inline-item"><a href="" target="_blank"><span
-                                            class="ti-linkedin"></span></a></li>
-                                    <li class="list-inline-item"><a href="" target="_blank"><span
-                                            class="ti-dribbble"></span></a></li>
-                                </ul>
-                                <p class="teacher-see-profile">
-                                    <a href="#" class="btn outline-white-btn">View my profile</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="staff-member">
-                        <div class="card text-center border-0">
-                            <img src="{{ $web_source }}/img/team-2.jpg" alt="team image" class="img-fluid">
-                            <div class="card-body">
-                                <h5 class="teacher mb-0">Gerald Nichols</h5>
-                                <span>Managing Director</span>
-                                <ul class="list-inline pt-2 social">
-                                    <li class="list-inline-item"><a href="" target="_blank"><span
-                                            class="ti-facebook"></span></a></li>
-                                    <li class="list-inline-item"><a href="" target="_blank"><span
-                                            class="ti-linkedin"></span></a></li>
-                                    <li class="list-inline-item"><a href="" target="_blank"><span
-                                            class="ti-dribbble"></span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="overlay d-flex align-items-center justify-content-center">
-                            <div class="overlay-inner">
-                                <p class="teacher-quote">"Authoritatively evolve stand-alone e-tailers whereas prospective partnerships." </p><a
-                                    href="#" class="teacher-name">
-                                <h5 class="mb-0 teacher text-white">Gerald Nichols</h5></a>
-                                <span class="teacher-field text-white">Managing Director</span>
-                                <ul class="list-inline py-4 social">
-                                    <li class="list-inline-item"><a href="" target="_blank"><span
-                                            class="ti-facebook"></span></a></li>
-                                    <li class="list-inline-item"><a href="" target="_blank"><span
-                                            class="ti-linkedin"></span></a></li>
-                                    <li class="list-inline-item"><a href="" target="_blank"><span
-                                            class="ti-dribbble"></span></a></li>
-                                </ul>
-                                <p class="teacher-see-profile">
-                                    <a href="#" class="btn outline-white-btn">View my profile</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
-    <!--team two section end-->
+    team two section end-->
 
     <!--call to action section start-->
     <section class="call-to-action py-5">
@@ -671,8 +432,8 @@
             <div class="row justify-content-around align-items-center">
                 <div class="col-md-7">
                     <div class="subscribe-content">
-                        <h3 class="mb-1">Consulting Agency for Your Business</h3>
-                        <p>Rapidiously engage fully tested e-commerce with progressive architectures.</p>
+                        <h3 class="mb-1">Real Estate Agency for You</h3>
+                        <p>Get reliable, affordable lands and properties.</p>
                     </div>
                 </div>
                 <div class="col-md-4">

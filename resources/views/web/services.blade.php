@@ -14,8 +14,7 @@
                         <h1 class="text-white mb-0">Our Services</h1>
                         <div class="custom-breadcrumb">
                             <ol class="breadcrumb d-inline-block bg-transparent list-inline py-0">
-                                <li class="list-inline-item breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="list-inline-item breadcrumb-item"><a href="#">Pages</a></li>
+                                <li class="list-inline-item breadcrumb-item"><a href="{{ route('homepage') }}">Home</a></li>
                                 <li class="list-inline-item breadcrumb-item active">Services</li>
                             </ol>
                         </div>
@@ -26,7 +25,7 @@
     </section>
     <!--header section end-->
 
-    <!--promo block with hover effect start-->
+    <!--promo block with hover effect start
     <section class="promo-block ptb-100">
         <div class="container">
             <div class="row">
@@ -66,17 +65,16 @@
             </div>
         </div>
     </section>
-    <!--promo block with hover effect end-->
+    promo block with hover effect end-->
 
     <!--services section start-->
     <section class="services-section ptb-100 gray-light-bg">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
-                    <div class="section-heading text-center mb-4">
-                        <h2>First Class Business Solutions for You</h2>
-                        <p class="lead">Efficiently aggregate end-to-end core competencies without maintainable ideas. Dynamically
-                            foster tactical solutions without enabled value.</p>
+                    <div class="section-heading text-center mb-5">
+                        <h2>Building</h2>
+                        <p class="lead">we provide users with the best built properties and homes. Our engineers are well equiped for anything</p>
                     </div>
                 </div>
             </div>
@@ -87,71 +85,45 @@
                             <span class="ti-announcement icon-md color-secondary"></span>
                         </div>
                         <div class="services-content-wrap">
-                            <h5>Marketing Services</h5>
-                            <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                                partnerships.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-3">Read more <span class="ti-arrow-right"></span></a>
+                            <h5>Land Banking</h5>
+                            <p class="mb-0">We offer Sales and marketing services to sell buildings and lands. 
+                                We will help you make money out of your land or properties 
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
+            <!--    <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <div class="service-icon mr-4">
                             <span class="ti-light-bulb icon-md color-secondary"></span>
                         </div>
                         <div class="services-content-wrap">
-                            <h5>Web App Development</h5>
-                            <p class="mb-0">Quickly pontificate holistic e-commerce rather than goal-oriented web-readiness enhance inexpensive.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-3">Read more <span class="ti-arrow-right"></span></a>
+                            <h5>Property management</h5>
+                            <p class="mb-0">We can help you manage your properties and units. Our jobs include collecting rent, showing units, fixing deficiencies, performing repairs, and managing tenants. </p>
                         </div>
                     </div>
                 </div>
+            -->
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <div class="service-icon mr-4">
-                            <span class="ti-headphone-alt icon-md color-secondary"></span>
+                            <span class="ti-stats-up icon-md color-secondary"></span>
                         </div>
                         <div class="services-content-wrap">
-                            <h5>24/7 Call Center Service</h5>
-                            <p class="mb-0">Authoritatively reinvent multimedia based niches with global portals orchestrate client-centered .</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-3">Read more <span class="ti-arrow-right"></span></a>
-                        </div>
+                            <h5>Real Estate Development</h5>
+                            <p class="mb-0">we can help you secure your future by investing in our landbanking,our job include land banking, real estate development, real estate broking, construction</p>
+                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <div class="service-icon mr-4">
-                            <span class="ti-bell icon-md color-secondary"></span>
-                        </div>
-                        <div class="services-content-wrap">
-                            <h5>Social Media Marketing</h5>
-                            <p class="mb-0">Assertively leverage other's standardized e-services with fully tested e-commerce strategize synergistic. </p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-3">Read more <span class="ti-arrow-right"></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <div class="service-icon mr-4">
-                            <span class="ti-briefcase icon-md color-secondary"></span>
-                        </div>
-                        <div class="services-content-wrap">
-                            <h5>Corporate Business</h5>
-                            <p class="mb-0">Enthusiastically scale client-centric supply chains vis-a-vis enabled benefits empower global core.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-3">Read more <span class="ti-arrow-right"></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <div class="service-icon mr-4">
-                            <span class="ti-vector icon-md color-secondary"></span>
+                            <span class="ti-headphone icon-md color-secondary"></span>
                         </div>
                         <div class="services-content-wrap">
                             <h5>Creative Consultancy</h5>
-                            <p class="mb-0">Conveniently productize corporate imperatives for innovative best practices ideas whereas ethical change.</p>
-                            <a href="services-details.html" target="_blank" class="detail-link mt-3">Read more <span class="ti-arrow-right"></span></a>
-                        </div>
+                            <p class="mb-0">Conveniently productize corporate imperatives for innovative best practices ideas whereas ethical change. We work with a variety of real estate professionals who work in the industry and help make it function. </p>
+                         </div>
                     </div>
                 </div>
             </div>
@@ -166,8 +138,8 @@
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-8">
                     <div class="call-to-action-content text-white text-center mb-4">
-                        <h2 class="text-white mb-1">Increase More Traffic Your Business?</h2>
-                        <p class="lead">Credibly redefine high-payoff web services after holistic experiences. Globally harness multidisciplinary solutions vis-a-vis intuitive customer service.</p>
+                        <h2 class="text-white mb-1">Say bye to accomodation problems</h2>
+                        <p class="lead">Join our amazing clients and be part of our success story</p>
                     </div>
                 </div>
             </div>
@@ -176,28 +148,28 @@
                     <div class="single-counter rounded p-4 text-center text-white">
                         <span class="ti-medall-alt icon-md"></span>
                         <h3 class="mb-0 text-white">1600</h3>
-                        <p>Active users</p>
+                        <p>Lands Sold</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="single-counter rounded p-4 text-center text-white">
-                        <span class="ti-headphone-alt icon-md"></span>
+                        <span class="ti-user icon-md"></span>
                         <h3 class="mb-0 text-white">2500</h3>
-                        <p>Global client</p>
+                        <p>Happy clients</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="single-counter rounded p-4 text-center text-white">
                         <span class="ti-cup icon-md"></span>
                         <h3 class="mb-0 text-white">2150</h3>
-                        <p>Win award</p>
+                        <p>Owned Properties</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="single-counter rounded p-4 text-center text-white">
                         <span class="ti-user icon-md"></span>
-                        <h3 class="mb-0 text-white">2150</h3>
-                        <p>Clients satisfaction</p>
+                        <h3 class="mb-0 text-white">250</h3>
+                        <p>Estates Constructed</p>
                     </div>
                 </div>
             </div>
@@ -205,72 +177,112 @@
     </section>
     <!--counter section end-->
 
-    <!--contact us section start-->
-    <section class="contact-us-section ptb-100">
-        <div class="container contact">
-            <div class="col-12 pb-3 message-box d-none">
-                <div class="alert alert-danger"></div>
-            </div>
-            <div class="row justify-content-around">
-                <div class="col-md-6">
-                    <div class="contact-us-form gray-light-bg rounded p-5">
-                        <h4>Ready to get started?</h4>
-                        <form action="" method="POST" id="contactForm" class="contact-us-form">
-                            <div class="form-row">
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="name" placeholder="Enter name" required="required">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" name="email" placeholder="Enter email" required="required">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <textarea name="message" id="message" class="form-control" rows="7" cols="25" placeholder="Message"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 mt-3">
-                                    <button type="submit" class="btn secondary-solid-btn" id="btnContactUs">
-                                        Send Message
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <div class="contact-us-content">
-                        <h2>Looking for a excellent Business idea?</h2>
-                        <p class="lead">Seamlessly deliver pandemic e-services and next-generation initiatives.</p>
-
-                        <a href="#" class="btn outline-btn align-items-center">Get Directions <span class="ti-arrow-right pl-2"></span></a>
-
-                        <hr class="my-5">
-
-                        <h5>Our Headquarters</h5>
-                        <address>
-                            100 yellow house, Mn <br>
-                            Factory, United State, 13420
-                        </address>
-                        <br>
-                        <span>Phone: +1234567890123</span> <br>
-                        <span>Email: <a href="mailto:email@yourdomain.com" class="link-color">email@yourdomain.com</a></span>
-
-                    </div>
+   <!--our work or portfolio section start-->
+   <section class="our-portfolio-section ptb-100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-heading text-center mb-5">
+                    <h2>Check Our Distinct Properties</h2>
+                    <p class="lead">Our sites are dry land and are very affordable <br>Feel free to contact us for further information</p>
                 </div>
             </div>
         </div>
-    </section>
-    <!--contact us section end-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center pb-2">
+                    <button type="button" class="filter-btn" data-mixitup-control data-filter="all">All</button>
+                    <button type="button" class="filter-btn" data-mixitup-control data-filter=".branding">Lands</button>
+                    <button type="button" class="filter-btn" data-mixitup-control data-filter=".animation">Homes</button>
+                    <button type="button" class="filter-btn" data-mixitup-control data-filter=".other">Beach View</button>
+                </div>
+                <div class="portfolio-container" id="MixItUp">
+                    <div class="mix portfolio-item branding" data-ref="mixitup-target">
+                        <div class="portfolio-wrapper">
+                            <a href="" target="_blank">
+                                <div class="content-overlay"></div>
+                                <img class="img-fluid" src="{{ $web_source }}/img/portfolios/3.jpg" alt="portfolio"/>
+                                <div class="content-details fadeIn-bottom text-white">
+                                    <h5 class="text-white mb-1">Park View Estate</h5>
+                                    <p>Ibeju Lekki</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mix portfolio-item animation" data-ref="mixitup-target">
+                        <div class="portfolio-wrapper">
+                            <a href="" target="_blank">
+                                <div class="content-overlay"></div>
+                                <img class="img-fluid" src="{{ $web_source }}/img/portfolios/2.jpg" alt="portfolio"/>
+                                <div class="content-details fadeIn-bottom text-white">
+                                    <h5 class="text-white mb-1">Rose Park Estate</h5>
+                                    <p>Ibeju Lekki</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mix portfolio-item animation" data-ref="mixitup-target">
+                        <div class="portfolio-wrapper">
+                            <a href="" target="_blank">
+                                <div class="content-overlay"></div>
+                                <img class="img-fluid" src="{{ $web_source }}/img/portfolios/4.jpg" alt="portfolio"/>
+                                <div class="content-details fadeIn-bottom text-white">
+                                    <h5 class="text-white mb-1">Park View Estate</h5>
+                                    <p>Ibeju Lekki</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mix portfolio-item branding" data-ref="mixitup-target">
+                        <div class="portfolio-wrapper">
+                            <a href="" target="_blank">
+                                <div class="content-overlay"></div>
+                                <img class="img-fluid" src="{{ $web_source }}/img/portfolios/1.jpg" alt="portfolio"/>
+                                <div class="content-details fadeIn-bottom text-white">
+                                    <h5 class="text-white mb-1">Rose Park Estate</h5>
+                                    <p>Ibeju Lekki</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mix portfolio-item branding " data-ref="mixitup-target">
+                        <div class="portfolio-wrapper">
+                            <a href="" target="_blank">
+                                <div class="content-overlay"></div>
+                                <img class="img-fluid" src="{{ $web_source }}/img/portfolios/6.jpg" alt="portfolio"/>
+                                <div class="content-details fadeIn-bottom text-white">
+                                    <h5 class="text-white mb-1">Park View Estate</h5>
+                                    <p>Ibeju Lekki</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mix portfolio-item other " data-ref="mixitup-target">
+                        <div class="portfolio-wrapper">
+                            <a href="" target="_blank">
+                                <div class="content-overlay"></div>
+                                <img class="img-fluid" src="{{ $web_source }}/img/portfolios/7.jpg" alt="portfolio"/>
+                                <div class="content-details fadeIn-bottom text-white">
+                                    <h5 class="text-white mb-1">Beach View</h5>
+                                    <p>Spacious and Beautiful</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gap"></div>
+                    <div class="gap"></div>
+                    <div class="gap"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--our work or portfolio section end-->
 
-
-    <!--client section start-->
+    <!--client section start
     <div class="client-section ptb-100 gray-light-bg">
         <div class="container">
-            <!--clients logo start-->
+           
             <div class="row align-items-center">
                 <div class="col-md-12">
                     <div class="owl-carousel owl-theme clients-carousel dot-indicator">
@@ -301,10 +313,9 @@
                     </div>
                 </div>
             </div>
-            <!--clients logo end-->
         </div>
     </div>
-    <!--client section start-->
+    client section start-->
 
 
 </div>
