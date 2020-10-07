@@ -118,8 +118,9 @@
                     </div>
                     <div class="services-content-wrap">
                         <h5>Land Banking</h5>
-                        <p class="mb-0">we can help you secure your future by investing in our landbanking,our job include land banking,
-                             real estate development, real estate broking, construction
+                        <p class="mb-0">we can help you secure your future by investing in our 
+                            landbanking, our job include land banking,
+                            real estate development ,real estate broking , construction
                         </p>
                     </div>
                 </div>
@@ -143,7 +144,7 @@
                     </div>
                     <div class="services-content-wrap">
                         <h5>Real Estate Development</h5>
-                        <p class="mb-0">Our development process at ReftopHomes involves the purchase of raw land, rezoning, construction and renovation of buildings, and sale or lease of the finished product to end users.</p>
+                        <p class="mb-0">we can help you secure your future by investing in our landbanking,our job include land banking, real estate development, real estate broking, construction</p>
                      </div>
                 </div>
             </div>
@@ -160,7 +161,7 @@
             </div>
         </div>
     </div>
-    </section>
+</section>
 <!--services section end-->
 
     <!--promo section start
