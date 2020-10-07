@@ -12,7 +12,7 @@ class BlogComments extends Model
         return $this->belongsTo(Blog::class);
     }
     public function getAvatar(){
-        return route('homepage').env('RESOURCE_PATH').'/user.png';
+        return route('homepage').env('ASSET_URL').'/user.png';
     }
 
 }

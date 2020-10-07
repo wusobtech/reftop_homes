@@ -18,7 +18,9 @@ class AdminMiddleware
     public function handle($request, Closure $next)
     {
         if(Auth::check()){
+            dd('loggi');
             $user = Auth::User();
+
             if ($user->role == 'Admin') {
                 Session::flash('error_msg','Access Denied!.....Admins Only!');
                 return $next($request);

@@ -14,11 +14,13 @@ class AdminController extends Controller
         if ($request->isMethod('post')) {
             $data = $request->all();
             // dd($data);
-            // User::create(['password' => Hash::make($data['password']) , 'name' => 'Admin' , 'email' =>$data['email'],]);
             // User::where('email' , $data['email'])->update(['password' => Hash::make($data['password'])]);
+            // dd(Auth::attempt(['email'=>$request['email'],'password'=>$request['password']]));
             if (Auth::attempt(['email' =>$data['email'], 'password' => $data['password'], 'role' => 'Admin'])) {
                 toastr()->success('Successful Login!.');
-                return redirect()->route('admin');
+                // dd(auth()->user());
+
+                return redirect('/admin/dashboard');;
             }else {
                 toastr()->error('Wrong Email or Password! Try again');
                 return redirect('/admin/login');
