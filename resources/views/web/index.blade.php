@@ -118,13 +118,13 @@
                     </div>
                     <div class="services-content-wrap">
                         <h5>Land Banking</h5>
-                        <p class="mb-0">We offer Sales and marketing services to sell buildings and lands.
-                            We will help you make money out of your land or properties
+                        <p class="mb-0">we can help you secure your future by investing in our landbanking,our job include land banking,
+                             real estate development, real estate broking, construction
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-6">
+        <!--    <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                     <div class="service-icon mr-4">
                         <span class="ti-light-bulb icon-md color-secondary"></span>
@@ -135,6 +135,7 @@
                     </div>
                 </div>
             </div>
+        -->
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="services-single d-flex p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                     <div class="service-icon mr-4">
