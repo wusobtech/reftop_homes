@@ -7,20 +7,20 @@
 
     <!-- SEO Meta description -->
     <meta name="description"
-          content="BizBite corporate business template or agency and marketing template helps you easily create websites for your business.">
-    <meta name="author" content="ThemeTags">
+          content="Think different, Be different. We are a real estate company with a focus on delivering quality real estate investment products to individuals seeking medium and long term high yielding properties">
+    <meta name="author" content="WUSOBTECH">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
-    <meta property="og:site_name" content=""/> <!-- website name -->
-    <meta property="og:site" content=""/> <!-- website link -->
-    <meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
-    <meta property="og:description" content=""/> <!-- description shown in the actual shared post -->
-    <meta property="og:image" content=""/> <!-- image link, make sure it's jpg -->
+    <meta property="og:site_name" content="Reftophomes"/> <!-- website name -->
+    <meta property="og:site" content="https://reftophomes.com"/> <!-- website link -->
+    <meta property="og:title" content="ReftopHomes"/> <!-- title shown in the actual shared post -->
+    <meta property="og:description" content="Think different, Be different. We are a real estate company with a focus on delivering quality real estate investment products to individuals seeking medium and long term high yielding properties"/> <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="https://reftophomes.com/web/img/icon.jpg"/> <!-- image link, make sure it's jpg -->
     <meta property="og:url" content=""/> <!-- where do you want your post to link to -->
     <meta property="og:type" content="article"/>
 
     <!--title-->
-    <title>Reftop Homes</title>
+    <title>@yield('title') :: ReftopHomes</title>
 
     <!--favicon icon-->
     <link rel="icon" href="{{ $web_source }}/img/icon.png" type="image/png" sizes="16x16">
