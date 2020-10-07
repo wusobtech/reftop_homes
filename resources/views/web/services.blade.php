@@ -86,8 +86,9 @@
                         </div>
                         <div class="services-content-wrap">
                             <h5>Land Banking</h5>
-                            <p class="mb-0">We offer Sales and marketing services to sell buildings and lands. 
-                                We will help you make money out of your land or properties 
+                            <p class="mb-0">we can help you secure your future by investing in our 
+                                landbanking, our job include land banking,
+                                real estate development ,real estate broking , construction
                             </p>
                         </div>
                     </div>
@@ -204,7 +205,7 @@
                                 <img class="img-fluid" src="{{ $web_source }}/img/portfolios/3.jpg" alt="portfolio"/>
                                 <div class="content-details fadeIn-bottom text-white">
                                     <h5 class="text-white mb-1">Park View Estate</h5>
-                                    <p>Ibeju Lekki</p>
+                                    <p>Igbogun Community Ibeju Lekki</p>
                                 </div>
                             </a>
                         </div>
@@ -228,7 +229,7 @@
                                 <img class="img-fluid" src="{{ $web_source }}/img/portfolios/4.jpg" alt="portfolio"/>
                                 <div class="content-details fadeIn-bottom text-white">
                                     <h5 class="text-white mb-1">Park View Estate</h5>
-                                    <p>Ibeju Lekki</p>
+                                    <p>Igbogun Community Ibeju Lekki</p>
                                 </div>
                             </a>
                         </div>
@@ -252,7 +253,7 @@
                                 <img class="img-fluid" src="{{ $web_source }}/img/portfolios/6.jpg" alt="portfolio"/>
                                 <div class="content-details fadeIn-bottom text-white">
                                     <h5 class="text-white mb-1">Park View Estate</h5>
-                                    <p>Ibeju Lekki</p>
+                                    <p>Igbogun Community Ibeju Lekki</p>
                                 </div>
                             </a>
                         </div>
@@ -265,6 +266,18 @@
                                 <div class="content-details fadeIn-bottom text-white">
                                     <h5 class="text-white mb-1">Beach View</h5>
                                     <p>Spacious and Beautiful</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mix portfolio-item branding " data-ref="mixitup-target">
+                        <div class="portfolio-wrapper">
+                            <a href="" target="_blank">
+                                <div class="content-overlay"></div>
+                                <img class="img-fluid" src="{{ $web_source }}/img/portfolios/8.jpg" alt="portfolio"/>
+                                <div class="content-details fadeIn-bottom text-white">
+                                    <h5 class="text-white mb-1">Edge View</h5>
+                                    <p>Ogogoro Village Ibeju Lekki</p>
                                 </div>
                             </a>
                         </div>

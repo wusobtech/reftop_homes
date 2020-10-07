@@ -237,7 +237,7 @@
                                     <img class="img-fluid" src="{{ $web_source }}/img/portfolios/3.jpg" alt="portfolio"/>
                                     <div class="content-details fadeIn-bottom text-white">
                                         <h5 class="text-white mb-1">Park View Estate</h5>
-                                        <p>Ibeju Lekki</p>
+                                        <p>Igbogun Community Ibeju Lekki</p>
                                     </div>
                                 </a>
                             </div>
@@ -261,7 +261,7 @@
                                     <img class="img-fluid" src="{{ $web_source }}/img/portfolios/4.jpg" alt="portfolio"/>
                                     <div class="content-details fadeIn-bottom text-white">
                                         <h5 class="text-white mb-1">Park View Estate</h5>
-                                        <p>Ibeju Lekki</p>
+                                        <p>Igbogun Community Ibeju Lekki</p>
                                     </div>
                                 </a>
                             </div>
@@ -285,7 +285,7 @@
                                     <img class="img-fluid" src="{{ $web_source }}/img/portfolios/6.jpg" alt="portfolio"/>
                                     <div class="content-details fadeIn-bottom text-white">
                                         <h5 class="text-white mb-1">Park View Estate</h5>
-                                        <p>Ibeju Lekki</p>
+                                        <p>Igbogun Community Ibeju Lekki</p>
                                     </div>
                                 </a>
                             </div>
@@ -298,6 +298,18 @@
                                     <div class="content-details fadeIn-bottom text-white">
                                         <h5 class="text-white mb-1">Beach View</h5>
                                         <p>Spacious and Beautiful</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="mix portfolio-item branding " data-ref="mixitup-target">
+                            <div class="portfolio-wrapper">
+                                <a href="" target="_blank">
+                                    <div class="content-overlay"></div>
+                                    <img class="img-fluid" src="{{ $web_source }}/img/portfolios/8.jpg" alt="portfolio"/>
+                                    <div class="content-details fadeIn-bottom text-white">
+                                        <h5 class="text-white mb-1">Edge View</h5>
+                                        <p>Ogogoro Village Ibeju Lekki</p>
                                     </div>
                                 </a>
                             </div>
@@ -404,7 +416,7 @@
     <!--</section>-->
     <!--blog section end-->
 
-    <!--team two section start-->
+    <!--team two section start 
     <section class="team-two-section ptb-100 gray-light-bg">
         <div class="container">
             <div class="row justify-content-center">
@@ -423,7 +435,7 @@
             </div>
         </div>
     </section>
-    <!--team two section end-->
+    team two section end-->
 
     <!--call to action section start-->
     <section class="call-to-action py-5">
@@ -437,7 +449,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="action-btn text-lg-right text-sm-left">
-                        <a href="#" class="btn secondary-solid-btn">Contact With Us</a>
+                        <a href="#" class="btn secondary-solid-btn">Contact Us</a>
                     </div>
                 </div>
             </div>
