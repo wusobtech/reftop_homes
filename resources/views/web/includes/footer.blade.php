@@ -17,6 +17,9 @@
                                     <li class="nav-item">
                                         <a class="nav-link"  href="{{route('services')}}" target="_blank">Rose Park Estate</a>
                                     </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link"  href="{{route('services')}}" target="_blank"> Edge view Estate</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
