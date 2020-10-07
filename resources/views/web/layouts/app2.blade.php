@@ -2,12 +2,12 @@
 <html lang="zxx">
 
 <head>
-    <title>@yield('title') :: WUSOB</title>
+    <title>@yield('title') :: ReftopHomes</title>
     <!-- Meta tag Keywords -->
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="UTF-8" />
-    <meta name="keywords" content="Wusob Technologies, NGO-Website Developent, Eccommerce-Website-Developmwnt with Payment Integration, Mobile-APp Development, Desktop-App Development" />
+    <meta name="keywords" content="" />
     <script>
         addEventListener("load", function() {
             setTimeout(hideURLbar, 0);
@@ -16,22 +16,12 @@
         function hideURLbar() {
             window.scrollTo(0, 1);
         }
-
     </script>
-    <!-- //Meta tag Keywords -->
 
-    <!-- Custom-Files -->
-    <link rel="stylesheet" href="{{ $web_source }}/css/bootstrap.css">
-    <!-- Bootstrap-Core-CSS -->
-    <link rel="stylesheet" href="{{ $web_source }}/css/style.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="{{ $web_source }}/css/portfolio.css">
-    <link rel="stylesheet" href="{{ $web_source }}/css/aos.css">
-    <link href="{{ $web_source }}/css/aos-animation.css" rel='stylesheet prefetch' type="text/css" media="all" />
-
+    @include('web.includes.style')
     <!-- Style-CSS -->
-    <!-- font-awesome-icons -->
-    <link href="{{ $web_source }}/css/font-awesome.css" rel="stylesheet">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ $web_source }}/images/wusob_logo.png">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ $web_source }}/img/icon.png">
     <!-- //font-awesome-icons -->
     <!-- /Fonts -->
     <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900" rel="stylesheet">

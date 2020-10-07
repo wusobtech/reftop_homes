@@ -1,33 +1,31 @@
-@extends('web.layouts.app2')
+@extends('web.layouts.app')
 @section('title')
 Admin Login
 @endsection
 @section('content')
-    <section class="banner-w3layouts">
+    <section class="banner-w3layouts ptb-100">
         <div class="container">
             <div class="row banner-w3layouts-grids">
                 <div class="col-lg-5 sign-info" data-aos="fade-right">
                     <h3>Sign in to your Account</h3>
-                    <p class="para-sign mt-2 mb-4 text-center">Enter your details to create account.</p>
+                    <p class="para-sign mt-2 mb-4">Enter your details to login</p>
 
                     <form method="post" action="{{ route('Adminlogin')}}">{{ csrf_field() }}
                         <div class="form-group">
-
                             <label>User Email*</label>
                             <div class="icon1">
-                                <input placeholder="" name="email" type="email" required="">
+                                <input class="form-control" placeholder="" name="email" type="email" required="">
                             </div>
                         </div>
                         <div class="form-group">
-
                             <label>Password*</label>
                             <div class="icon2">
-                                <input placeholder="" name="password" type="password" required="">
+                                <input class="form-control" placeholder="" name="password" type="password" required="">
                             </div>
                         </div>
                         <div class="clearfix"></div>
-                        <input type="submit" value="Sign in">
-
+                        <input type="submit" class="btn btn-primary btn-lg" value="Sign in">
+                        <br>
                         <label class="anim">
                             @if (Route::has('password.request'))
                                 <a href="{{ route('password.request') }}">
