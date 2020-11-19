@@ -67,8 +67,8 @@
             <div class="row align-items-center justify-content-center">
                 <div class="col-md-5 col-lg-5">
                     <p class="copyright-text pb-0 mb-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script>  All
-                        rights reserved by
-                        <a href="https://reftophomes.com" target="_blank">reftophomes</a></p>
+                        rights reserved. Powered by 
+                        <a href="https://wusobtech.com" target="_blank">Wusob technologies</a></p>
                 </div>
             <!--    <div class="col-md-7 col-lg-6 d-none d-md-block d-lg-block">
                     <div class="social-nav text-right">
