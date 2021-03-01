@@ -316,10 +316,27 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="mix portfolio-item branding " data-ref="mixitup-target">
+                            <div class="portfolio-wrapper">
+                                <a href="" target="_blank">
+                                    <div class="content-overlay"></div>
+                                    <img class="img-fluid" src="{{ $web_source }}/img/portfolios/10.jpg" alt="portfolio"/>
+                                    <div class="content-details fadeIn-bottom text-white">
+                                        <h5 class="text-white mb-1">Eden View Estate</h5>
+                                        <p>Folu Ise Ibeju-Lekki</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                         <div class="gap"></div>
                         <div class="gap"></div>
                         <div class="gap"></div>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-fluid w-100" src="{{ $web_source }}/img/portfolios/11.jpg" alt="portfolio"/>
                 </div>
             </div>
         </div>
