@@ -335,6 +335,9 @@
                 </div>
             </div>
             <div class="row">
+                <div class="subscribe-content">
+                    <h3 class="mb-1 mr-4">Now Selling!!!</h3>
+                </div>
                 <div class="col-md-6">
                     <img class="img-fluid w-100" src="{{ $web_source }}/img/portfolios/11.jpg" alt="portfolio"/>
                 </div>
